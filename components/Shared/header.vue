@@ -1,6 +1,9 @@
 <template>
-  <div
-    class="fixed top-0 left-0 h-[10%] bg-transparent w-full flex items-center justify-between px-35 z-50"
+  <header
+    :class="[
+      'fixed top-0 h-[10%] left-0 w-full flex items-center justify-between px-35 z-50 transition-colors duration-300',
+      scrolled ? 'bg-[#e9c6a0]/90 shadow-md' : 'bg-transparent',
+    ]"
   >
     <NuxtLink to="/">
       <h4 class="font-bold text-3xl capitalize">Bukhara library</h4>
@@ -10,7 +13,6 @@
       <ul class="flex items-center gap-6">
         <li
           class="transition-all duration-300 hover:-translate-y-1 hover:shadow-[inset_0_-2px_0_0_rgba(0,0,0,0.2)]"
-         
         >
           <NuxtLink to="/news">Yangiliklar</NuxtLink>
         </li>
@@ -42,13 +44,28 @@
       </ul>
     </div>
     <!-- <SharedColoreMode /> -->
-  </div>
+  </header>
 </template>
 
 <script setup lang="ts">
 const route = useRoute();
-console.log(route);
 
+const scrolled = ref(false);
+
+// qancha scrolldan keyin fon o‘zgarsin:
+const SCROLL_THRESHOLD = 50;
+
+function onScroll() {
+  scrolled.value = window.scrollY > SCROLL_THRESHOLD;
+}
+
+onMounted(() => {
+  window.addEventListener("scroll", onScroll, { passive: true });
+});
+
+onUnmounted(() => {
+  window.removeEventListener("scroll", onScroll);
+});
 </script>
 
 <style scoped></style>
