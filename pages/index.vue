@@ -79,7 +79,61 @@
     <section
       id="news-teaser"
       class="flex flex-col items-center justify-center py-10 pt-20 bg-gradient-to-r from-[#e9c6a0] to-white"
-    ></section>
+    >
+      <div class="max-w-[1024px] mx-auto flex flex-col items-center">
+        <h1 class="font-bold text-3xl capitalize mb-10 text-center">
+          Yangiliklar
+        </h1>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <div
+            v-for="item in firstThreeNews"
+            :key="item.id"
+            class="bg-white/80 backdrop-blur-sm rounded-lg p-6 flex flex-col shadow-[0px_4px_16px_rgba(17,17,26,0.05),0px_8px_32px_rgba(17,17,26,0.05)]"
+          >
+            <!-- Sarlavha -->
+            <h2 class="text-2xl font-bold text-gray-800 mb-2">
+              {{ item.title }}
+            </h2>
+
+            <!-- Sana -->
+            <p class="text-sm text-gray-500 mb-4">
+              {{ item.date }}
+            </p>
+
+            <!-- Tavsif -->
+            <p class="text-gray-700 flex-1 mb-6">
+              {{ item.description }}
+            </p>
+
+            <!-- Qo‘shimcha tugma yoki link -->
+            <NuxtLink
+              :to="`/news/${item.id}`"
+              class="mt-auto inline-block text-blue-600 hover:underline font-medium"
+            >
+              Batafsil o‘qish →
+            </NuxtLink>
+          </div>
+        </div>
+        <UButton
+          role="link"
+          size="xl"
+          color="neutral"
+          variant="outline"
+          class="group mt-10 align-middle"
+          @click="
+            () => {
+              router.push('/news');
+            }
+          "
+        >
+          Ko'proq ko'rish
+          <UIcon
+            name="i-lucide-arrow-right"
+            class="size-5 ml-2 transform transition-transform duration-400 group-hover:translate-x-1"
+          />
+        </UButton>
+      </div>
+    </section>
 
     <section
       id="quick-links"
@@ -172,11 +226,12 @@
 </template>
 
 <script setup lang="ts">
-import { libs } from "../constants/data";
+import { libs, news } from "../constants/data";
 
 const router = useRouter();
 
 const firstFour = libs.slice(0, 4);
+const firstThreeNews = news.slice(0, 3);
 </script>
 
 <style scoped></style>
