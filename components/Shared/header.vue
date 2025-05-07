@@ -2,7 +2,7 @@
   <header
     :class="[
       'fixed top-0 h-[10%] left-0 w-full flex items-center justify-between px-35 z-50 transition-colors duration-300',
-      scrolled ? 'bg-[#e9c6a0]/90 shadow-md' : 'bg-transparent',
+      scrolled ? 'bg-[#e9c6a0]/60 shadow-md backdrop-blur-md' : 'bg-transparent',
     ]"
   >
     <NuxtLink to="/">
