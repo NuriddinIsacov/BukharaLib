@@ -58,13 +58,13 @@
       </ul>
       <div class="flex items-center justify-center gap-4">
         <SwitchLocalePathLink locale="uz"
-          ><NuxtImg src="../public/images/header/flags/uzbek.svg"
+          ><NuxtImg src="/images/header/flags/uzbek.svg"
         /></SwitchLocalePathLink>
         <SwitchLocalePathLink locale="ru"
-          ><NuxtImg src="../public/images/header/flags/russian.svg"
+          ><NuxtImg src="/images/header/flags/russian.svg"
         /></SwitchLocalePathLink>
         <SwitchLocalePathLink locale="en"
-          ><NuxtImg src="../public/images/header/flags/english.svg"
+          ><NuxtImg src="/images/header/flags/english.svg"
         /></SwitchLocalePathLink>
       </div>
     </div>
