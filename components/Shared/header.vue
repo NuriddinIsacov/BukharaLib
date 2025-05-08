@@ -8,13 +8,22 @@
     ]"
   >
     <NuxtLink to="/">
-      <h4 class="font-bold text-3xl capitalize" :class="{ 'text-white':route.path.startsWith('/news') }">Bukhara library</h4>
+      <h4
+        class="font-bold text-3xl capitalize"
+        :class="{
+          'text-white': route.path.startsWith('/news') && scrollY < 200,
+        }"
+      >
+        Bukhara library
+      </h4>
     </NuxtLink>
 
     <div>
       <ul
         class="flex items-center gap-6"
-        :class="{ 'text-white': route.path.startsWith('/news') }"
+        :class="{
+          'text-white': route.path.startsWith('/news') && scrollY < 200,
+        }"
       >
         <li
           class="transition-all duration-300 hover:-translate-y-1 hover:shadow-[inset_0_-2px_0_0_rgba(0,0,0,0.2)]"
@@ -59,6 +68,7 @@ const scrolled = ref(false);
 
 // qancha scrolldan keyin fon o‘zgarsin:
 const SCROLL_THRESHOLD = 50;
+const scrollY = ref(0);
 
 function onScroll() {
   scrolled.value = window.scrollY > SCROLL_THRESHOLD;
@@ -66,11 +76,16 @@ function onScroll() {
 
 onMounted(() => {
   window.addEventListener("scroll", onScroll, { passive: true });
+  window.addEventListener("scroll", handleScroll, { passive: true });
 });
 
 onUnmounted(() => {
   window.removeEventListener("scroll", onScroll);
 });
+
+function handleScroll() {
+  scrollY.value = window.scrollY;
+}
 </script>
 
 <style scoped></style>
