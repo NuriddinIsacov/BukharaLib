@@ -18,7 +18,7 @@
       </h4>
     </NuxtLink>
 
-    <div>
+    <div class="flex items-center gap-20">
       <ul
         class="flex items-center gap-6"
         :class="{
@@ -28,41 +28,56 @@
         <li
           class="transition-all duration-300 hover:-translate-y-1 hover:shadow-[inset_0_-2px_0_0_rgba(0,0,0,0.2)]"
         >
-          <NuxtLink to="/news">Yangiliklar</NuxtLink>
+          <NuxtLink to="/news">{{ t("news") }}</NuxtLink>
         </li>
         <li
           class="transition-all duration-300 hover:-translate-y-1 hover:shadow-[inset_0_-2px_0_0_rgba(0,0,0,0.2)]"
         >
-          <NuxtLink to="/libs">Kutubxonalar</NuxtLink>
+          <NuxtLink to="/libs">{{ t("libs") }}</NuxtLink>
         </li>
         <li
           class="transition-all duration-300 hover:-translate-y-1 hover:shadow-[inset_0_-2px_0_0_rgba(0,0,0,0.2)]"
         >
-          <NuxtLink to="/places">Qadamjolar</NuxtLink>
+          <NuxtLink to="/places">{{ t("places") }}</NuxtLink>
         </li>
         <li
           class="transition-all duration-300 hover:-translate-y-1 hover:shadow-[inset_0_-2px_0_0_rgba(0,0,0,0.2)]"
         >
-          <NuxtLink to="/celebrities">Mashhur shaxslar</NuxtLink>
+          <NuxtLink to="/celebrities">{{ t("celebrities") }}</NuxtLink>
         </li>
         <li
           class="transition-all duration-300 hover:-translate-y-1 hover:shadow-[inset_0_-2px_0_0_rgba(0,0,0,0.2)]"
         >
-          <NuxtLink to="/facts">Qiziqarli faktlar</NuxtLink>
+          <NuxtLink to="/facts">{{ t("facts") }}</NuxtLink>
         </li>
         <li
           class="transition-all duration-300 hover:-translate-y-1 hover:shadow-[inset_0_-2px_0_0_rgba(0,0,0,0.2)]"
         >
-          <NuxtLink to="/contact">Bog'lanish</NuxtLink>
+          <NuxtLink to="/contact">{{ t("contact") }}</NuxtLink>
         </li>
       </ul>
+      <div class="flex items-center justify-center gap-4">
+        <SwitchLocalePathLink locale="uz"
+          ><NuxtImg src="../public/images/header/flags/uzbek.svg"
+        /></SwitchLocalePathLink>
+        <SwitchLocalePathLink locale="ru"
+          ><NuxtImg src="../public/images/header/flags/russian.svg"
+        /></SwitchLocalePathLink>
+        <SwitchLocalePathLink locale="en"
+          ><NuxtImg src="../public/images/header/flags/english.svg"
+        /></SwitchLocalePathLink>
+      </div>
     </div>
     <!-- <SharedColoreMode /> -->
   </header>
 </template>
 
 <script setup lang="ts">
+import { useI18n } from "#imports";
+
 const route = useRoute();
+
+const { t } = useI18n();
 
 const scrolled = ref(false);
 

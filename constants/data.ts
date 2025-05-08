@@ -228,3 +228,15 @@ export const news = [
       "Atrof-muhitni muhofaza qilish maqsadida Buxoroda quyosh panellari va shamol turbinalari orqali ekologik toza energiya ishlab chiqarish yo‘lga qo‘yildi.",
   },
 ];
+
+export const localesData = [
+  {
+    code:"uz"
+  },
+  {
+    code:"ru"
+  },
+  {
+    code:"en"
+  }
+]
