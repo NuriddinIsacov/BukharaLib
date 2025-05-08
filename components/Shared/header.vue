@@ -2,15 +2,20 @@
   <header
     :class="[
       'fixed top-0 h-[10%] left-0 w-full flex items-center justify-between px-35 z-50 transition-colors duration-300',
-      scrolled ? 'bg-[#e9c6a0]/60 shadow-md backdrop-blur-md' : 'bg-transparent',
+      scrolled
+        ? 'bg-[#e9c6a0]/60 shadow-md backdrop-blur-md'
+        : 'bg-transparent',
     ]"
   >
     <NuxtLink to="/">
-      <h4 class="font-bold text-3xl capitalize">Bukhara library</h4>
+      <h4 class="font-bold text-3xl capitalize" :class="{ 'text-white':route.path.startsWith('/news') }">Bukhara library</h4>
     </NuxtLink>
 
     <div>
-      <ul class="flex items-center gap-6">
+      <ul
+        class="flex items-center gap-6"
+        :class="{ 'text-white': route.path.startsWith('/news') }"
+      >
         <li
           class="transition-all duration-300 hover:-translate-y-1 hover:shadow-[inset_0_-2px_0_0_rgba(0,0,0,0.2)]"
         >
