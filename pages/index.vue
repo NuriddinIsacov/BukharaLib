@@ -8,7 +8,7 @@
         class="relative z-10 flex items-center justify-center h-full flex-col gap-3"
       >
         <h1 class="text-white text-4xl">
-          Buxoro kutubxonalarining boy merosiga sayohat
+          {{ t('hero-title') }}
         </h1>
         <UButton
           role="link"
@@ -22,7 +22,7 @@
             }
           "
         >
-          Kutubxonalar
+          {{t('libs')}}
           <UIcon
             name="i-lucide-arrow-right"
             class="size-5 ml-2 transform transition-transform duration-400 group-hover:translate-x-1"
@@ -34,7 +34,7 @@
       id="libs-teaser"
       class="flex flex-col items-center justify-center py-10 pt-20 bg-gradient-to-r from-[#e9c6a0] to-white"
     >
-      <h1 class="font-bold text-3xl capitalize mb-10">Kutubxonalar</h1>
+      <h1 class="font-bold text-3xl capitalize mb-10">{{ t('libs') }}</h1>
       <UCarousel
         loop
         auto-scroll
@@ -53,7 +53,7 @@
           <h2 class="text-xl font-bold mb-2">{{ lib.nomi }}</h2>
           <p>📍 {{ lib.manzil }}</p>
           <p>🕒 {{ lib.ish_vaqti }}</p>
-          <p>❌ Dam olish: {{ lib.dam_olish_kunlari.join(", ") }}</p>
+          <p>❌ {{ t("of-day") }}: {{ lib.dam_olish_kunlari.join(", ") }}</p>
         </div>
       </UCarousel>
       <UButton
@@ -68,7 +68,7 @@
           }
         "
       >
-        Batafsil
+        {{t('more')}}
         <UIcon
           name="i-lucide-arrow-right"
           class="size-5 ml-2 transform transition-transform duration-400 group-hover:translate-x-1"
@@ -82,7 +82,7 @@
     >
       <div class="max-w-[1024px] mx-auto flex flex-col items-center">
         <h1 class="font-bold text-3xl capitalize mb-10 text-center">
-          Yangiliklar
+          {{t('news')}}
         </h1>
         <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
           <div
@@ -101,7 +101,7 @@
             </p>
 
             <!-- Tavsif -->
-            <p class="text-gray-700 flex-1 mb-6">
+            <p class="text-gray-700 flex-1 mb-6 line-clamp-3">
               {{ item.description }}
             </p>
 
@@ -126,7 +126,7 @@
             }
           "
         >
-          Ko'proq ko'rish
+          {{ t('view-more') }}
           <UIcon
             name="i-lucide-arrow-right"
             class="size-5 ml-2 transform transition-transform duration-400 group-hover:translate-x-1"
@@ -152,7 +152,7 @@
               class="w-full h-full object-cover"
             />
           </div>
-          <h1 class="text-xl">Yangiliklar</h1>
+          <h1 class="text-xl">{{t('news')}}</h1>
         </NuxtLink>
         <NuxtLink
           to="/libs"
@@ -165,7 +165,7 @@
               class="w-full h-full object-cover"
             />
           </div>
-          <h1 class="text-xl">Kutubxonalar</h1>
+          <h1 class="text-xl">{{t('libs')}}</h1>
         </NuxtLink>
         <NuxtLink
           to="/places"
@@ -178,7 +178,7 @@
               class="w-full h-full object-cover"
             />
           </div>
-          <h1 class="text-xl">Qadamjolar</h1>
+          <h1 class="text-xl">{{t('places')}}</h1>
         </NuxtLink>
         <!-- 2-chi qator -->
         <NuxtLink
@@ -192,7 +192,7 @@
               class="w-full h-full object-cover"
             />
           </div>
-          <h1 class="text-xl">Mashhur shaxslar</h1>
+          <h1 class="text-xl">{{ t('celebrities') }}</h1>
         </NuxtLink>
         <NuxtLink
           to="/facts"
@@ -205,7 +205,7 @@
               class="w-full h-full object-cover"
             />
           </div>
-          <h1 class="text-xl">Qiziqarli faktlar</h1>
+          <h1 class="text-xl">{{ t('facts') }}</h1>
         </NuxtLink>
         <NuxtLink
           to="/contact"
@@ -218,7 +218,7 @@
               class="w-full h-full object-cover"
             />
           </div>
-          <h1 class="text-xl">Bog'anish</h1>
+          <h1 class="text-xl">{{ t('contact') }}</h1>
         </NuxtLink>
       </div>
     </section>
@@ -227,7 +227,7 @@
 
 <script setup lang="ts">
 import { libs, news } from "../constants/data";
-
+const { t } = useI18n();
 const router = useRouter();
 
 const firstFour = libs.slice(0, 4);
