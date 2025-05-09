@@ -18,7 +18,7 @@
         v-for="kutubxona in libs"
         :key="kutubxona.id"
         :to="`/libs/${kutubxona?.id}`"
-        class="flex items-center justify-center px-6 bg-white/10 rounded-xl overflow-hidden shadow-[0px_4px_16px_rgba(17,17,26,0.05),0px_8px_32px_rgba(17,17,26,0.05)] transform transition duration-300 hover:scale-102 hover:shadow-lg"
+        class="flex items-center justify-center px-6 bg-white/10 rounded-xl overflow-hidden shadow-[0px_4px_16px_rgba(17,17,26,0.05),0px_8px_32px_rgba(17,17,26,0.05)] transform transition duration-300 hover:scale-102 hover:shadow-lg hover:-translate-y-1"
       >
         <!-- Chap tomon: Rasm -->
         <div class="w-1/3">
