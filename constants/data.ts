@@ -6,6 +6,7 @@ export const libs = {
       address: "Buxoro shahri, I. Muminov ko'chasi, 6-uy",
       working_hours: "08:00 dan 18:00 gacha",
       days_off: ["Yakshanba"],
+      image: "/images/libs/1.webp",
     },
     {
       id: 2,
@@ -13,6 +14,7 @@ export const libs = {
       address: "Buxoro shahri, Abay ko'chasi, 6/31",
       working_hours: "09:00 dan 18:00 gacha",
       days_off: ["Shanba", "Yakshanba"],
+      image: "/images/libs/2.webp",
     },
     {
       id: 3,
@@ -20,6 +22,7 @@ export const libs = {
       address: "MFY Bunyodkor, Bunyodkor ko'chasi, 50-uy",
       working_hours: "08:00 dan 18:00 gacha, Shanba kuni 12:00 gacha",
       days_off: ["Yakshanba"],
+      image: "/images/libs/3.jpg",
     },
     {
       id: 4,
@@ -27,6 +30,7 @@ export const libs = {
       address: "Ibn Sina ko'chasi, 1-uy",
       working_hours: "08:00 dan 18:00 gacha, Shanba kuni 12:00 gacha",
       days_off: ["Yakshanba"],
+      image: "/images/libs/4.png",
     },
     {
       id: 5,
@@ -34,6 +38,7 @@ export const libs = {
       address: "Ahmad Donish ko'chasi, 44-uy",
       working_hours: "08:00 dan 18:00 gacha, Shanba kuni 12:00 gacha",
       days_off: ["Yakshanba"],
+      image: "/images/libs/5.png",
     },
     {
       id: 6,
@@ -41,6 +46,7 @@ export const libs = {
       address: "Makhmud Torabiy ko'chasi, 46-uy",
       working_hours: "08:00 dan 18:00 gacha, Shanba kuni 12:00 gacha",
       days_off: ["Yakshanba"],
+      image: "/images/libs/6.jpg",
     },
     {
       id: 7,
@@ -48,6 +54,7 @@ export const libs = {
       address: "KFY Niyozkhodji, Niyozkhodji qishlog'i",
       working_hours: "08:00 dan 18:00 gacha, Shanba kuni 12:00 gacha",
       days_off: ["Yakshanba"],
+      image: "/images/libs/7.jpg",
     },
     {
       id: 8,
@@ -55,6 +62,7 @@ export const libs = {
       address: "Vatanparvar ko'chasi, 4-uy",
       working_hours: "08:00 dan 18:00 gacha, Shanba kuni 12:00 gacha",
       days_off: ["Yakshanba"],
+      image: "/images/libs/8.webp",
     },
     {
       id: 9,
@@ -62,6 +70,7 @@ export const libs = {
       address: "Amir Temur ko'chasi, 6-uy",
       working_hours: "08:00 dan 18:00 gacha, Shanba kuni 12:00 gacha",
       days_off: ["Yakshanba"],
+      image: "/images/libs/9.webp",
     },
     {
       id: 10,
@@ -69,6 +78,7 @@ export const libs = {
       address: "MFY Ibn Sina, Yangi Khayot ko'chasi, 100-uy",
       working_hours: "08:00 dan 18:00 gacha, Shanba kuni 12:00 gacha",
       days_off: ["Yakshanba"],
+      image: "/images/libs/10.jpg",
     },
     {
       id: 11,
@@ -76,6 +86,7 @@ export const libs = {
       address: "Fayzulla Khojaev ko'chasi, 9-uy",
       working_hours: "08:00 dan 18:00 gacha, Shanba kuni 12:00 gacha",
       days_off: ["Yakshanba"],
+      image: "/images/libs/11.jpg",
     },
     {
       id: 12,
@@ -83,6 +94,7 @@ export const libs = {
       address: "Ulug'bek ko'chasi, 229-uy",
       working_hours: "Ma'lumot yo'q",
       days_off: [],
+      image: "/images/libs/12.jpg",
     },
     {
       id: 13,
@@ -90,6 +102,7 @@ export const libs = {
       address: "Geologlar ko'chasi, 1-uy",
       working_hours: "08:00 dan 18:00 gacha, Shanba kuni 12:00 gacha",
       days_off: ["Yakshanba"],
+      image: "/images/libs/13.png",
     },
     {
       id: 14,
@@ -97,6 +110,7 @@ export const libs = {
       address: "A. Gijduvoni Shokh ko'chasi, 70-uy",
       working_hours: "08:00 dan 18:00 gacha, Shanba kuni 12:00 gacha",
       days_off: ["Yakshanba"],
+      image: "/images/libs/14.jpg",
     },
     {
       id: 15,
@@ -104,6 +118,7 @@ export const libs = {
       address: "Buxoro shahri, X. Ibodov ko'chasi, 4-uy",
       working_hours: "08:00 dan 18:00 gacha",
       days_off: ["Shanba", "Yakshanba"],
+      image: "/images/libs/15.jpg",
     },
     {
       id: 16,
@@ -111,6 +126,7 @@ export const libs = {
       address: "Gijduvan ko'chasi, Yoshlar Markazi binosi",
       working_hours: "Dushanba - Shanba: 09:00 dan 18:00 gacha",
       days_off: ["Yakshanba"],
+      image: "/images/libs/16.jpg",
     },
     {
       id: 17,
@@ -119,250 +135,283 @@ export const libs = {
       working_hours:
         "Dushanba - Juma: 08:30 dan 17:00 gacha, Shanba: qisqa kun yoki yopiq",
       days_off: ["Yakshanba"],
+      image: "/images/libs/17.jpg",
     },
   ],
   ru: [
     {
       id: 1,
       name: "Бухарский областной информационно-библиотечный центр имени Абу Али ибн Сины",
-      address: "г. Бухара, ул. И. Муминова, дом 6",
-      working_hours: "с 8:00 до 18:00",
+      address: "г. Бухара, ул. И. Муминова, 6",
+      working_hours: "с 08:00 до 18:00",
       days_off: ["Воскресенье"],
+      image: "/images/libs/1.webp",
     },
     {
       id: 2,
-      name: "Бухарская областная библиотека для слепых",
+      name: "Областная библиотека для слепых Бухары",
       address: "г. Бухара, ул. Абая, 6/31",
-      working_hours: "с 9:00 до 18:00",
+      working_hours: "с 09:00 до 18:00",
       days_off: ["Суббота", "Воскресенье"],
+      image: "/images/libs/2.webp",
     },
     {
       id: 3,
-      name: "Олотский районный информационно-библиотечный центр",
-      address: "МФЙ Бунёдкор, ул. Бунёдкор, дом 50",
-      working_hours: "с 8:00 до 18:00, в субботу до 12:00",
+      name: "Информационно-библиотечный центр Алатского района",
+      address: "МФЙ Бунёдкор, ул. Бунёдкор, 50",
+      working_hours: "с 08:00 до 18:00, в субботу до 12:00",
       days_off: ["Воскресенье"],
+      image: "/images/libs/3.jpg",
     },
     {
       id: 4,
-      name: "Бухарский районный информационно-библиотечный центр",
-      address: "ул. Ибн Сины, дом 1",
-      working_hours: "с 8:00 до 18:00, в субботу до 12:00",
+      name: "Информационно-библиотечный центр Бухарского района",
+      address: "ул. Ибн Сины, 1",
+      working_hours: "с 08:00 до 18:00, в субботу до 12:00",
       days_off: ["Воскресенье"],
+      image: "/images/libs/4.png",
     },
     {
       id: 5,
-      name: "Вобкентский районный информационно-библиотечный центр",
-      address: "ул. Ахмада Дониша, дом 44",
-      working_hours: "с 8:00 до 18:00, в субботу до 12:00",
+      name: "Информационно-библиотечный центр Вабкентского района",
+      address: "ул. Ахмада Дониша, 44",
+      working_hours: "с 08:00 до 18:00, в субботу до 12:00",
       days_off: ["Воскресенье"],
+      image: "/images/libs/5.png",
     },
     {
       id: 6,
-      name: "Джондорский районный информационно-библиотечный центр",
-      address: "ул. Махмуда Торабий, дом 46",
-      working_hours: "с 8:00 до 18:00, в субботу до 12:00",
+      name: "Информационно-библиотечный центр Жондорского района",
+      address: "ул. Махмуда Торабий, 46",
+      working_hours: "с 08:00 до 18:00, в субботу до 12:00",
       days_off: ["Воскресенье"],
+      image: "/images/libs/6.jpg",
     },
     {
       id: 7,
-      name: "Каганский районный информационно-библиотечный центр",
+      name: "Информационно-библиотечный центр Каганского района",
       address: "КФЙ Ниёзходжи, село Ниёзходжи",
-      working_hours: "с 8:00 до 18:00, в субботу до 12:00",
+      working_hours: "с 08:00 до 18:00, в субботу до 12:00",
       days_off: ["Воскресенье"],
+      image: "/images/libs/7.jpg",
     },
     {
       id: 8,
-      name: "Кагангородской информационно-библиотечный центр",
-      address: "ул. Ватанпарвар, дом 4",
-      working_hours: "с 8:00 до 18:00, в субботу до 12:00",
+      name: "Информационно-библиотечный центр города Каган",
+      address: "ул. Ватанпарвар, 4",
+      working_hours: "с 08:00 до 18:00, в субботу до 12:00",
       days_off: ["Воскресенье"],
+      image: "/images/libs/8.webp",
     },
     {
       id: 9,
-      name: "Пешкунский районный информационно-библиотечный центр",
-      address: "ул. Амира Темура, дом 6",
-      working_hours: "с 8:00 до 18:00, в субботу до 12:00",
+      name: "Информационно-библиотечный центр Пешкунского района",
+      address: "ул. Амира Темура, 6",
+      working_hours: "с 08:00 до 18:00, в субботу до 12:00",
       days_off: ["Воскресенье"],
+      image: "/images/libs/9.webp",
     },
     {
       id: 10,
-      name: "Ромитский районный информационно-библиотечный центр",
-      address: "МФЙ Ибн Сины, ул. Янги Хаёт, дом 100",
-      working_hours: "с 8:00 до 18:00, в субботу до 12:00",
+      name: "Информационно-библиотечный центр Ромитанского района",
+      address: "МФЙ Ибн Сина, ул. Янги Хаёт, 100",
+      working_hours: "с 08:00 до 18:00, в субботу до 12:00",
       days_off: ["Воскресенье"],
+      image: "/images/libs/10.jpg",
     },
     {
       id: 11,
-      name: "Шофирканский районный информационно-библиотечный центр",
-      address: "ул. Файзуллы Ходжаева, дом 9",
-      working_hours: "с 8:00 до 18:00, в субботу до 12:00",
+      name: "Информационно-библиотечный центр Шафирканского района",
+      address: "ул. Файзуллы Ходжаева, 9",
+      working_hours: "с 08:00 до 18:00, в субботу до 12:00",
       days_off: ["Воскресенье"],
+      image: "/images/libs/11.jpg",
     },
     {
       id: 12,
-      name: "Каракульский районный информационно-библиотечный центр",
-      address: "ул. Улугбека, дом 229",
-      working_hours: "Информация отсутствует",
+      name: "Информационно-библиотечный центр Каракульского района",
+      address: "ул. Улугбека, 229",
+      working_hours: "Нет информации",
       days_off: [],
+      image: "/images/libs/12.jpg",
     },
     {
       id: 13,
-      name: "Караулбазарский районный информационно-библиотечный центр",
-      address: "ул. Геологов, дом 1",
-      working_hours: "с 8:00 до 18:00, в субботу до 12:00",
+      name: "Информационно-библиотечный центр Караулбазарского района",
+      address: "ул. Геологов, 1",
+      working_hours: "с 08:00 до 18:00, в субботу до 12:00",
       days_off: ["Воскресенье"],
+      image: "/images/libs/13.jpg",
     },
     {
       id: 14,
-      name: "Гиждуванский районный информационно-библиотечный центр",
-      address: "ул. А. Гиждувани Шоха, дом 70",
-      working_hours: "с 8:00 до 18:00, в субботу до 12:00",
+      name: "Информационно-библиотечный центр Гиждуванского района",
+      address: "ул. А. Гиждувоний Шох, 70",
+      working_hours: "с 08:00 до 18:00, в субботу до 12:00",
       days_off: ["Воскресенье"],
+      image: "/images/libs/14.jpg",
     },
     {
       id: 15,
-      name: "Бухарская областная детская библиотека имени Наршахи",
-      address: "г. Бухара, ул. Х. Ибодова, дом 4",
-      working_hours: "с 8:00 до 18:00",
+      name: "Детская областная библиотека имени Наршахи",
+      address: "г. Бухара, ул. Х. Ибодова, 4",
+      working_hours: "с 08:00 до 18:00",
       days_off: ["Суббота", "Воскресенье"],
+      image: "/images/libs/15.jpg",
     },
     {
       id: 16,
-      name: "Бухарская библиотека молодежного центра",
-      address: "ул. Гиждуван, здание молодежного центра",
-      working_hours: "Понедельник - Суббота: с 9:00 до 18:00",
+      name: "Библиотека Молодёжного Центра Бухары",
+      address: "ул. Гиждуван, здание Молодёжного Центра",
+      working_hours: "Пн - Сб: с 09:00 до 18:00",
       days_off: ["Воскресенье"],
+      image: "/images/libs/16.jpg",
     },
     {
       id: 17,
       name: "Медицинская библиотека имени Абу Али ибн Сины",
-      address: "ул. Ибн Сины, территория Бухарского медицинского института",
-      working_hours:
-        "Понедельник - Пятница: с 8:30 до 17:00, в субботу: сокращенный день или закрыто",
+      address: "ул. Ибн Сины, территория Бухарского мединститута",
+      working_hours: "Пн - Пт: с 08:30 до 17:00, Сб: короткий день или закрыто",
       days_off: ["Воскресенье"],
+      image: "/images/libs/17.jpg",
     },
   ],
   en: [
     {
       id: 1,
       name: "Bukhara Regional Information and Library Center named after Abu Ali Ibn Sina",
-      address: "Bukhara city, I. Muminova street, building 6",
-      working_hours: "from 8:00 AM to 6:00 PM",
+      address: "Bukhara city, I. Muminov street, 6",
+      working_hours: "08:00 to 18:00",
       days_off: ["Sunday"],
+      image: "/images/libs/1.webp",
     },
     {
       id: 2,
       name: "Bukhara Regional Library for the Blind",
       address: "Bukhara city, Abay street, 6/31",
-      working_hours: "from 9:00 AM to 6:00 PM",
+      working_hours: "09:00 to 18:00",
       days_off: ["Saturday", "Sunday"],
+      image: "/images/libs/2.webp",
     },
     {
       id: 3,
-      name: "Olotsky District Information and Library Center",
-      address: "MFY Bunyodkor, Bunyodkor street, building 50",
-      working_hours: "from 8:00 AM to 6:00 PM, Saturday until 12:00 PM",
+      name: "Alat District Information and Library Center",
+      address: "Bunyodkor MFY, Bunyodkor street, 50",
+      working_hours: "08:00 to 18:00, Saturday until 12:00",
       days_off: ["Sunday"],
+      image: "/images/libs/3.jpg",
     },
     {
       id: 4,
       name: "Bukhara District Information and Library Center",
-      address: "Ibn Sina street, building 1",
-      working_hours: "from 8:00 AM to 6:00 PM, Saturday until 12:00 PM",
+      address: "Ibn Sina street, 1",
+      working_hours: "08:00 to 18:00, Saturday until 12:00",
       days_off: ["Sunday"],
+      image: "/images/libs/4.png",
     },
     {
       id: 5,
       name: "Vobkent District Information and Library Center",
-      address: "Ahmad Donish street, building 44",
-      working_hours: "from 8:00 AM to 6:00 PM, Saturday until 12:00 PM",
+      address: "Ahmad Donish street, 44",
+      working_hours: "08:00 to 18:00, Saturday until 12:00",
       days_off: ["Sunday"],
+      image: "/images/libs/5.png",
     },
     {
       id: 6,
       name: "Jondor District Information and Library Center",
-      address: "Makhmud Torabiy street, building 46",
-      working_hours: "from 8:00 AM to 6:00 PM, Saturday until 12:00 PM",
+      address: "Makhmud Torabiy street, 46",
+      working_hours: "08:00 to 18:00, Saturday until 12:00",
       days_off: ["Sunday"],
+      image: "/images/libs/6.jpg",
     },
     {
       id: 7,
       name: "Kagan District Information and Library Center",
-      address: "KFY Niyozkhodji, village Niyozkhodji",
-      working_hours: "from 8:00 AM to 6:00 PM, Saturday until 12:00 PM",
+      address: "Niyozkhodji KFY, Niyozkhodji village",
+      working_hours: "08:00 to 18:00, Saturday until 12:00",
       days_off: ["Sunday"],
+      image: "/images/libs/7.jpg",
     },
     {
       id: 8,
       name: "Kagan City Information and Library Center",
-      address: "Vatanparvar street, building 4",
-      working_hours: "from 8:00 AM to 6:00 PM, Saturday until 12:00 PM",
+      address: "Vatanparvar street, 4",
+      working_hours: "08:00 to 18:00, Saturday until 12:00",
       days_off: ["Sunday"],
+      image: "/images/libs/8.webp",
     },
     {
       id: 9,
       name: "Peshkun District Information and Library Center",
-      address: "Amir Temur street, building 6",
-      working_hours: "from 8:00 AM to 6:00 PM, Saturday until 12:00 PM",
+      address: "Amir Temur street, 6",
+      working_hours: "08:00 to 18:00, Saturday until 12:00",
       days_off: ["Sunday"],
+      image: "/images/libs/9.webp",
     },
     {
       id: 10,
       name: "Romitan District Information and Library Center",
-      address: "MFY Ibn Sina, Yangi Khayot street, building 100",
-      working_hours: "from 8:00 AM to 6:00 PM, Saturday until 12:00 PM",
+      address: "Ibn Sina MFY, Yangi Hayot street, 100",
+      working_hours: "08:00 to 18:00, Saturday until 12:00",
       days_off: ["Sunday"],
+      image: "/images/libs/10.jpg",
     },
     {
       id: 11,
       name: "Shofirkon District Information and Library Center",
-      address: "Fayzulla Khojaev street, building 9",
-      working_hours: "from 8:00 AM to 6:00 PM, Saturday until 12:00 PM",
+      address: "Fayzulla Khojaev street, 9",
+      working_hours: "08:00 to 18:00, Saturday until 12:00",
       days_off: ["Sunday"],
+      image: "/images/libs/11.jpg",
     },
     {
       id: 12,
       name: "Karakul District Information and Library Center",
-      address: "Ulughbek street, building 229",
+      address: "Ulugbek street, 229",
       working_hours: "No information",
       days_off: [],
+      image: "/images/libs/12.jpg",
     },
     {
       id: 13,
       name: "Karaulbazar District Information and Library Center",
-      address: "Geologists street, building 1",
-      working_hours: "from 8:00 AM to 6:00 PM, Saturday until 12:00 PM",
+      address: "Geologlar street, 1",
+      working_hours: "08:00 to 18:00, Saturday until 12:00",
       days_off: ["Sunday"],
+      image: "/images/libs/13.jpg",
     },
     {
       id: 14,
       name: "Gijduvan District Information and Library Center",
-      address: "A. Gijduvoni Shokh street, building 70",
-      working_hours: "from 8:00 AM to 6:00 PM, Saturday until 12:00 PM",
+      address: "A. Gijduvaniy Shokh street, 70",
+      working_hours: "08:00 to 18:00, Saturday until 12:00",
       days_off: ["Sunday"],
+      image: "/images/libs/14.jpg",
     },
     {
       id: 15,
-      name: "Bukhara Regional Children's Library named after Narshahi",
-      address: "Bukhara city, Kh. Ibodov street, building 4",
-      working_hours: "from 8:00 AM to 6:00 PM",
+      name: "Regional Children's Library named after Narshakhi",
+      address: "Bukhara city, H. Ibodov street, 4",
+      working_hours: "08:00 to 18:00",
       days_off: ["Saturday", "Sunday"],
+      image: "/images/libs/15.jpg",
     },
     {
       id: 16,
       name: "Bukhara Youth Center Library",
-      address: "Gijduvan street, building of Youth Center",
-      working_hours: "Monday to Saturday: 9:00 AM to 6:00 PM",
+      address: "Gijduvan street, Youth Center building",
+      working_hours: "Monday - Saturday: 09:00 to 18:00",
       days_off: ["Sunday"],
+      image: "/images/libs/16.jpg",
     },
     {
       id: 17,
       name: "Medical Library named after Abu Ali Ibn Sina",
-      address: "Ibn Sina street, territory of Bukhara Medical Institute",
-      working_hours:
-        "Monday to Friday: 8:30 AM to 5:00 PM, Saturday: short day or closed",
+      address: "Ibn Sina street, within Bukhara Medical Institute",
+      working_hours: "Mon - Fri: 08:30 to 17:00, Sat: short day or closed",
       days_off: ["Sunday"],
+      image: "/images/libs/17.jpg",
     },
   ],
 };
@@ -699,241 +748,214 @@ export const facts = {
       title: "Samanidlar davrida kutubxonalar",
       description:
         "IX–X asrlarda Buxoro Samanidlar davrida islom olamining ilmiy markaziga aylangan va ko'plab kutubxonalar mavjud bo'lgan.",
-      image:
-        "https://upload.wikimedia.org/wikipedia/commons/4/4a/Samanid_Mausoleum_in_Bukhara.jpg",
+      image: "/images/facts/1.jpg",
     },
     {
       id: 2,
       title: "Ark qal'asidagi kutubxona",
       description:
         "Ark qal'asida joylashgan kutubxonada Abu Ali ibn Sino ilgari hech ko'rmagan noyob kitoblarni topgan.",
-      image:
-        "https://upload.wikimedia.org/wikipedia/commons/2/2d/Ark_Fortress_Bukhara.jpg",
+      image: "/images/facts/2.png",
     },
     {
       id: 3,
       title: "Khizanat al-kutub kutubxonasi",
       description:
         "XII asrda Sadrs oilasi tomonidan asos solingan 'Khizanat al-kutub' jamoat kutubxonasi mavjud bo'lgan.",
-      image:
-        "https://upload.wikimedia.org/wikipedia/commons/5/5b/Bukhara_Madrasah.jpg",
+      image: "/images/facts/3.jpg",
     },
     {
       id: 4,
       title: "Madrasalardagi kutubxonalar",
       description:
         "Buxorodagi madrasalarda kutubxonalar mavjud bo'lib, talabalar ba'zan amirdan maxsus ruxsatnoma bilan kitoblar olishgan.",
-      image:
-        "https://upload.wikimedia.org/wikipedia/commons/3/3b/Mir-i_Arab_Madrasa_Bukhara.jpg",
+      image: "/images/facts/4.webp",
     },
     {
       id: 5,
       title: "20,000 nusxa qo‘lyozmalar",
       description:
         "Samanidlar davrida Mir Arab madrasasiga 20,000 nusxa qo‘lyozmalar hadya qilingan.",
-      image:
-        "https://upload.wikimedia.org/wikipedia/commons/6/6e/Mir-i_Arab_Madrasa.jpg",
+      image: "/images/facts/5.webp",
     },
     {
       id: 6,
       title: "Abd al-Azizxon kutubxonasi",
       description:
         "XVI asrda Abd al-Azizxon tomonidan tashkil etilgan kutubxona 'dunyoda tengi yo‘q' deb ta'riflangan.",
-      image:
-        "https://upload.wikimedia.org/wikipedia/commons/1/1e/Abdulaziz_Khan_Madrasa_Bukhara.jpg",
+      image: "/images/facts/6.png",
     },
     {
       id: 7,
       title: "Kitobxonlar uchun maxsus ruxsatnoma",
       description:
         "Madrasalardagi talabalar kutubxonalardan kitob olish uchun amirdan maxsus ruxsatnoma olishgan.",
-      image:
-        "https://upload.wikimedia.org/wikipedia/commons/9/9b/Bukhara_Library.jpg",
+      image: "/images/facts/7.jpg",
     },
     {
       id: 8,
       title: "Kutubxonachilar lavozimi",
       description:
         "Kutubxonachilar amir tomonidan Kazikalon tavsiyasi bilan tayinlangan va obro‘li lavozim hisoblangan.",
-      image:
-        "https://upload.wikimedia.org/wikipedia/commons/7/7f/Bukhara_Ark_Library.jpg",
+      image: "/images/facts/8.jpg",
     },
     {
       id: 9,
       title: "Kutubxonalar va davlat hujjatlari",
       description:
         "Amirlik davrida kutubxonalar davlat hujjatlari saqlanadigan maxsus xonalarda joylashgan bo‘lib, ular uchun alohida mas'ullar tayinlangan.",
-      image:
-        "https://upload.wikimedia.org/wikipedia/commons/8/8a/Bukhara_State_Archives.jpg",
+      image: "/images/facts/9.jfif",
     },
     {
       id: 10,
       title: "Kutubxonalar va ilmiy meros",
       description:
         "Buxorodagi kutubxonalar asrlar davomida ilm-fan va madaniyatning rivojlanishiga katta hissa qo‘shgan.",
-      image: "/images/facts/facts-bg.webp",
+      image: "/images/facts/10.webp",
     },
   ],
   ru: [
     {
       id: 1,
-      title: "Библиотеки эпохи Саманидов",
+      title: "Библиотеки Саманидов",
       description:
-        "В IX–X веках Бухара при Саманидах стала научным центром исламского мира с множеством библиотек.",
-      image:
-        "https://upload.wikimedia.org/wikipedia/commons/4/4a/Samanid_Mausoleum_in_Bukhara.jpg",
+        "В IX–X веках Бухара при Саманидах стала научным центром исламского мира с многочисленными библиотеками.",
+      image: "/images/facts/1.jpg",
     },
     {
       id: 2,
       title: "Библиотека в крепости Арк",
       description:
-        "В библиотеке крепости Арк Абу Али ибн Сина находил редкие книги, которых ранее не видел.",
-      image:
-        "https://upload.wikimedia.org/wikipedia/commons/2/2d/Ark_Fortress_Bukhara.jpg",
+        "В библиотеке крепости Арк Ибн Сина нашёл редкие книги, которых ранее никогда не видел.",
+      image: "/images/facts/2.png",
     },
     {
       id: 3,
-      title: "Библиотека Хизанат аль-Кутуб",
+      title: "Общественная библиотека XII века",
       description:
-        "В XII веке семья Садр основала общественную библиотеку 'Хизанат аль-Кутуб'.",
-      image:
-        "https://upload.wikimedia.org/wikipedia/commons/5/5b/Bukhara_Madrasah.jpg",
+        "В XII веке существовала общественная библиотека 'Khizanat al-kutub', основанная семьёй Садр.",
+      image: "/images/facts/3.jpg",
     },
     {
       id: 4,
-      title: "Библиотеки в медресе",
+      title: "Библиотеки при медресе",
       description:
-        "В медресе Бухары были библиотеки, и студенты иногда получали книги с особого разрешения эмира.",
-      image:
-        "https://upload.wikimedia.org/wikipedia/commons/3/3b/Mir-i_Arab_Madrasa_Bukhara.jpg",
+        "При медресе в Бухаре имелись библиотеки, и студенты брали книги по специальному разрешению эмира.",
+      image: "/images/facts/4.webp",
     },
     {
       id: 5,
       title: "20 000 рукописей",
       description:
-        "Во времена Саманидов в медресе Мир Араб было пожертвовано 20 000 рукописей.",
-      image:
-        "https://upload.wikimedia.org/wikipedia/commons/6/6e/Mir-i_Arab_Madrasa.jpg",
+        "Во времена Саманидов в медресе Мира Араб было подарено 20 000 экземпляров рукописей.",
+      image: "/images/facts/5.webp",
     },
     {
       id: 6,
       title: "Библиотека Абд аль-Азизхана",
       description:
-        "В XVI веке Абд аль-Азизхан основал библиотеку, описанную как 'не имеющую равных в мире'.",
-      image:
-        "https://upload.wikimedia.org/wikipedia/commons/1/1e/Abdulaziz_Khan_Madrasa_Bukhara.jpg",
+        "В XVI веке Абд аль-Азизхан основал библиотеку, описанную как 'не имеющая равных в мире'.",
+      image: "/images/facts/6.png",
     },
     {
       id: 7,
-      title: "Специальное разрешение для читателей",
+      title: "Разрешения на книги",
       description:
-        "Студенты медресе получали книги из библиотек с особого разрешения эмира.",
-      image:
-        "https://upload.wikimedia.org/wikipedia/commons/9/9b/Bukhara_Library.jpg",
+        "Для получения книг студенты получали специальное разрешение эмира.",
+      image: "/images/facts/7.jpg",
     },
     {
       id: 8,
       title: "Должность библиотекаря",
       description:
-        "Библиотекари назначались эмиром по рекомендации Казикалона и считались престижной должностью.",
-      image:
-        "https://upload.wikimedia.org/wikipedia/commons/7/7f/Bukhara_Ark_Library.jpg",
+        "Библиотекари назначались эмиром по рекомендации Казикалона и занимали уважаемую должность.",
+      image: "/images/facts/8.jpg",
     },
     {
       id: 9,
-      title: "Библиотеки и государственные документы",
+      title: "Государственные архивы",
       description:
-        "Во времена эмирата библиотеки размещались в специальных комнатах для хранения государственных документов, с назначенными ответственными лицами.",
-      image:
-        "https://upload.wikimedia.org/wikipedia/commons/8/8a/Bukhara_State_Archives.jpg",
+        "Библиотеки также служили местом хранения государственных документов с назначенными хранителями.",
+      image: "/images/facts/9.jfif",
     },
     {
       id: 10,
-      title: "Библиотеки и научное наследие",
+      title: "Наследие науки и культуры",
       description:
-        "Библиотеки Бухары на протяжении веков вносили значительный вклад в развитие науки и культуры.",
-      image: "/images/facts/facts-bg.webp",
+        "Библиотеки Бухары сыграли важную роль в развитии науки и культуры на протяжении веков.",
+      image: "/images/facts/10.webp",
     },
   ],
   en: [
     {
       id: 1,
-      title: "Libraries during the Samanid Era",
+      title: "Libraries in the Samanid Era",
       description:
-        "In the 9th–10th centuries, Bukhara became a scientific center of the Islamic world during the Samanid era, housing numerous libraries.",
-      image:
-        "https://upload.wikimedia.org/wikipedia/commons/4/4a/Samanid_Mausoleum_in_Bukhara.jpg",
+        "In the 9th–10th centuries, Bukhara became a scientific center of the Islamic world under the Samanids with numerous libraries.",
+      image: "/images/facts/1.jpg",
     },
     {
       id: 2,
       title: "Library in the Ark Fortress",
       description:
-        "Within the Ark Fortress, Avicenna discovered rare books he had never seen before, highlighting the library's uniqueness.",
-      image:
-        "https://upload.wikimedia.org/wikipedia/commons/2/2d/Ark_Fortress_Bukhara.jpg",
+        "In the Ark fortress library, Ibn Sina discovered rare books he had never seen before.",
+      image: "/images/facts/2.png",
     },
     {
       id: 3,
-      title: "Khizanat al-Kutub Library",
+      title: "Khizanat al-kutub Library",
       description:
-        "Established in the 12th century by the Sadr family, the 'Khizanat al-Kutub' served as a public library in Bukhara.",
-      image:
-        "https://upload.wikimedia.org/wikipedia/commons/5/5b/Bukhara_Madrasah.jpg",
+        "In the 12th century, the public library 'Khizanat al-kutub' was founded by the Sadr family.",
+      image: "/images/facts/3.jpg",
     },
     {
       id: 4,
-      title: "Libraries within Madrasahs",
+      title: "Libraries in Madrasahs",
       description:
-        "Madrasahs in Bukhara housed libraries where students sometimes required special permission from the emir to borrow books.",
-      image:
-        "https://upload.wikimedia.org/wikipedia/commons/3/3b/Mir-i_Arab_Madrasa_Bukhara.jpg",
+        "Libraries in Bukhara’s madrasahs provided students with books through special permission from the Emir.",
+      image: "/images/facts/4.webp",
     },
     {
       id: 5,
-      title: "20,000 Manuscripts Donated",
+      title: "20,000 Manuscripts",
       description:
-        "During the Samanid era, 20,000 manuscript copies were donated to the Mir-i-Arab Madrasah.",
-      image:
-        "https://upload.wikimedia.org/wikipedia/commons/6/6e/Mir-i_Arab_Madrasa.jpg",
+        "During the Samanid era, 20,000 manuscript copies were gifted to the Mir Arab madrasah.",
+      image: "/images/facts/5.webp",
     },
     {
       id: 6,
-      title: "Library of Abd al-Aziz Khan",
+      title: "Abd al-Aziz Khan’s Library",
       description:
-        "In the 17th century, Abd al-Aziz Khan established a library described as 'unparalleled in the world.'",
-      image:
-        "https://upload.wikimedia.org/wikipedia/commons/1/1e/Abdulaziz_Khan_Madrasa_Bukhara.jpg",
+        "In the 16th century, Abd al-Aziz Khan founded a library described as 'unequaled in the world'.",
+      image: "/images/facts/6.png",
     },
     {
       id: 7,
-      title: "Special Permits for Borrowing Books",
+      title: "Special Book Permissions",
       description:
-        "Students in madrasahs needed special permits from the emir to borrow books from the libraries.",
-      image:
-        "https://upload.wikimedia.org/wikipedia/commons/9/9b/Bukhara_Library.jpg",
+        "Students needed special permission from the Emir to borrow books from madrasah libraries.",
+      image: "/images/facts/7.jpg",
     },
     {
       id: 8,
-      title: "Role of Librarians",
+      title: "Librarian Appointment",
       description:
-        "Librarians were appointed by the emir based on recommendations from the Kazikalon and held esteemed positions.",
-      image:
-        "https://upload.wikimedia.org/wikipedia/commons/7/7f/Bukhara_Ark_Library.jpg",
+        "Librarians were appointed by the Emir on the advice of Kazikalon and held a prestigious position.",
+      image: "/images/facts/8.jpg",
     },
     {
       id: 9,
       title: "Libraries and State Documents",
       description:
-        "During the emirate period, libraries housed state documents in special rooms with designated officials.",
-      image:
-        "https://upload.wikimedia.org/wikipedia/commons/8/8a/Bukhara_State_Archives.jpg",
+        "Libraries housed state documents in special rooms with designated keepers under the Emirate.",
+      image: "/images/facts/9.jfif",
     },
     {
       id: 10,
-      title: "Libraries and Scientific Heritage",
+      title: "Scientific and Cultural Legacy",
       description:
-        "Libraries in Bukhara significantly contributed to the development of science and culture over the centuries.",
-      image: "/images/facts/facts-bg.webp",
+        "Libraries in Bukhara contributed significantly to science and culture over the centuries.",
+      image: "/images/facts/10.webp",
     },
   ],
 };

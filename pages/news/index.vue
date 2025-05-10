@@ -67,13 +67,10 @@
 
 <script setup lang="ts">
 import { news } from "~/constants/data";
-const {locale} = useI18n()
+const { locale } = useI18n();
 const news2: any = [];
-const data = news[locale.value]
+const data = news[locale.value];
 const firstFour = data.slice(0, 4);
 </script>
 
-<style scoped>
-.divider {
-}
-</style>
+<style scoped></style>
