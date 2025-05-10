@@ -35,13 +35,13 @@
             {{ kutubxona.name }}
           </h2>
           <p class="text-gray-600 mb-1">
-            <strong>📍 Manzil:</strong> {{ kutubxona.address }}
+            <strong class="capitalize">📍 {{ t('address') }}:</strong> {{ kutubxona.address }}
           </p>
           <p class="text-gray-600 mb-1">
-            <strong>🕒 Ish vaqti:</strong> {{ kutubxona.working_hours }}
+            <strong>🕒 {{t('working_hours')}}:</strong> {{ kutubxona.working_hours }}
           </p>
           <p class="text-gray-600">
-            <strong>❌ Dam olish kunlari:</strong>
+            <strong>❌ {{ t('days_off') }}:</strong>
             {{ kutubxona.days_off.join(", ") }}
           </p>
         </div>
