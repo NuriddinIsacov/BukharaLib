@@ -12,9 +12,9 @@
         class="font-bold text-3xl capitalize"
         :class="{
           'text-white':
-            (route.path.startsWith('/news') ||
-              route.path.startsWith('/libs') ||
-              route.path.startsWith('/facts')) &&
+            (route.path.includes('/news') ||
+              route.path.includes('/libs') ||
+              route.path.includes('/facts')) &&
             scrollY < 200,
         }"
       >
@@ -27,9 +27,9 @@
         class="flex items-center gap-6"
         :class="{
           'text-white':
-            (route.path.startsWith('/news') ||
-              route.path.startsWith('/libs') ||
-              route.path.startsWith('/facts')) &&
+            (route.path.includes('/news') ||
+              route.path.includes('/libs') ||
+              route.path.includes('/facts')) &&
             scrollY < 200,
         }"
       >

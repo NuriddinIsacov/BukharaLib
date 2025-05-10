@@ -49,7 +49,7 @@
             <div>
               <UButton
                 type="submit"
-                class="w-full py-2 px-4 bg-indigo-600 text-white font-semibold rounded-md hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500"
+                class="w-full py-2 px-4 bg-[#e9c6a0] flex items-center justify-center font-semibold rounded-md hover:bg-[#e9c6a0]/80 focus:outline-none focus:ring-2 focus:ring-indigo-500"
               >
                 Xabarni yuborish
               </UButton>
@@ -87,8 +87,8 @@
 <script setup lang="ts">
 import { ref } from "vue";
 
-const {t} = useI18n()
-const toast = useToast()
+const { t } = useI18n();
+const toast = useToast();
 const form = ref({
   name: "",
   email: "",
@@ -96,19 +96,20 @@ const form = ref({
 });
 
 const submitForm = () => {
-  showToast()
+  showToast();
 };
 
 function showToast() {
   toast.add({
-    title: 'The message was sent successfully!',
-    icon: 'i-lucide-check',
+    title: t("toast-msg"),
+    icon: "i-lucide-check",
     close: {
-      color: 'primary',
-      variant: 'outline',
-      class: 'rounded-full'
-    }
-  })
+      color: "warning",
+      variant: "outline",
+      class: "rounded-full",
+    },
+    color: "warning",
+  });
 }
 </script>
 
