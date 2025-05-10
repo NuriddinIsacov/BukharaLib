@@ -87,6 +87,8 @@
 <script setup lang="ts">
 import { ref } from "vue";
 
+const {t} = useI18n()
+const toast = useToast()
 const form = ref({
   name: "",
   email: "",
@@ -94,16 +96,19 @@ const form = ref({
 });
 
 const submitForm = () => {
-  showToast();
+  showToast()
 };
-const props = defineProps<{
-  title: string;
-}>();
-
-const toast = useToast();
 
 function showToast() {
-  toast.add(props);
+  toast.add({
+    title: 'The message was sent successfully!',
+    icon: 'i-lucide-check',
+    close: {
+      color: 'primary',
+      variant: 'outline',
+      class: 'rounded-full'
+    }
+  })
 }
 </script>
 
