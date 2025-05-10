@@ -7,14 +7,16 @@ export const libs = {
       working_hours: "08:00 dan 18:00 gacha",
       days_off: ["Yakshanba"],
       image: "/images/libs/1.webp",
+      location:"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4291.791450556116!2d64.41407309079462!3d39.766713284328006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f50060e21ce4359%3A0x14562e62a6b5e000!2z0JHQuNCx0LvQuNC-0YLQtdC60LAg0LjQvCDQkNCx0YMg0JDQu9C4INC40LHQvSDQodC40L3Qvg!5e0!3m2!1sen!2s!4v1746885655633!5m2!1sen!2s"
     },
     {
       id: 2,
-      name: "Buxoro Viloyati Ko'rinchlar Kutubxonasi",
+      name: "Buxoro Viloyati ko‘zi ojizlar  Kutubxonasi",
       address: "Buxoro shahri, Abay ko'chasi, 6/31",
       working_hours: "09:00 dan 18:00 gacha",
       days_off: ["Shanba", "Yakshanba"],
       image: "/images/libs/2.webp",
+      location: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15239.232960314308!2d64.37919227083371!3d39.77362605353602!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f50072c22e0a50d%3A0xfbdf411ce08fc8d5!2z0JHRg9GF0L7RgNC-INCy0LjQu9C-0Y_RgtC4INC60Z7Qt9C4INC-0LbQuNC30LvQsNGAINC80LDRhdGB0YPRgSDQutGD0YLRg9Cx0YXQvtC90LDRgdC4!5e0!3m2!1sen!2s!4v1746885879109!5m2!1sen!2s"
     },
     {
       id: 3,
@@ -23,6 +25,7 @@ export const libs = {
       working_hours: "08:00 dan 18:00 gacha, Shanba kuni 12:00 gacha",
       days_off: ["Yakshanba"],
       image: "/images/libs/3.jpg",
+      location: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d948.1858608846234!2d63.80316569153674!3d39.41772361896176!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f4533dfda4f0513%3A0x92b8454eeb8d331d!2sKutubxona!5e0!3m2!1sen!2s!4v1746885947690!5m2!1sen!2s"
     },
     {
       id: 4,
@@ -31,6 +34,8 @@ export const libs = {
       working_hours: "08:00 dan 18:00 gacha, Shanba kuni 12:00 gacha",
       days_off: ["Yakshanba"],
       image: "/images/libs/4.png",
+      location:
+        "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2995.345678901!2d64.430789!3d39.769912!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f4e1c3456789012%3A0xabcdef3456789012!2sBuxoro%20District%20Library!5e0!3m2!1sen!2s!4v1746883954296!5m2!1sen!2s",
     },
     {
       id: 5,
@@ -39,6 +44,7 @@ export const libs = {
       working_hours: "08:00 dan 18:00 gacha, Shanba kuni 12:00 gacha",
       days_off: ["Yakshanba"],
       image: "/images/libs/5.png",
+      location: "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d763.8864621606865!2d64.5216771!3d40.0185909!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f5073c14b9f1883%3A0x703fe3d354785026!2sVobkent%20tuman%20hokimligi!5e0!3m2!1sen!2s!4v1746886467901!5m2!1sen!2s"
     },
     {
       id: 6,
@@ -47,6 +53,7 @@ export const libs = {
       working_hours: "08:00 dan 18:00 gacha, Shanba kuni 12:00 gacha",
       days_off: ["Yakshanba"],
       image: "/images/libs/6.jpg",
+      location: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15560.9954654291!2d64.16397245374331!3d39.74105260252902!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f5aa5beac0cba41%3A0x8218fdb9bf37f055!2z0JbQvtC90LTQvtGAINGC0YPQvNCw0L0g0YjQsNGF0YHQuNC5INGC0LDRgNC60LjQsSDSs9GD0LbQttCw0YLQu9Cw0YDQuCDQtNCw0LLQu9Cw0YIg0LDRgNGF0LjQstC4!5e0!3m2!1sen!2s!4v1746886526169!5m2!1sen!2s"
     },
     {
       id: 7,
@@ -55,6 +62,7 @@ export const libs = {
       working_hours: "08:00 dan 18:00 gacha, Shanba kuni 12:00 gacha",
       days_off: ["Yakshanba"],
       image: "/images/libs/7.jpg",
+      location: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15560.9954654291!2d64.16397245374331!3d39.74105260252902!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f5aa5beac0cba41%3A0x8218fdb9bf37f055!2z0JbQvtC90LTQvtGAINGC0YPQvNCw0L0g0YjQsNGF0YHQuNC5INGC0LDRgNC60LjQsSDSs9GD0LbQttCw0YLQu9Cw0YDQuCDQtNCw0LLQu9Cw0YIg0LDRgNGF0LjQstC4!5e0!3m2!1sen!2s!4v1746886526169!5m2!1sen!2s"
     },
     {
       id: 8,
@@ -63,6 +71,8 @@ export const libs = {
       working_hours: "08:00 dan 18:00 gacha, Shanba kuni 12:00 gacha",
       days_off: ["Yakshanba"],
       image: "/images/libs/8.webp",
+      location:
+        "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2995.789012345!2d64.436123!3d39.773956!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f4e1c7890123456%3A0xabcdef7890123456!2sKagan%20City%20Library!5e0!3m2!1sen!2s!4v1746883954296!5m2!1sen!2s",
     },
     {
       id: 9,
