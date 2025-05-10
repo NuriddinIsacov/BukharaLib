@@ -804,7 +804,7 @@ export const facts = {
       title: "Kutubxonalar va davlat hujjatlari",
       description:
         "Amirlik davrida kutubxonalar davlat hujjatlari saqlanadigan maxsus xonalarda joylashgan bo‘lib, ular uchun alohida mas'ullar tayinlangan.",
-      image: "/images/facts/9.jfif",
+      image: "/images/facts/9.jpg",
     },
     {
       id: 10,
@@ -876,7 +876,7 @@ export const facts = {
       title: "Государственные архивы",
       description:
         "Библиотеки также служили местом хранения государственных документов с назначенными хранителями.",
-      image: "/images/facts/9.jfif",
+      image: "/images/facts/9.jpg",
     },
     {
       id: 10,
@@ -948,7 +948,7 @@ export const facts = {
       title: "Libraries and State Documents",
       description:
         "Libraries housed state documents in special rooms with designated keepers under the Emirate.",
-      image: "/images/facts/9.jfif",
+      image: "/images/facts/9.jpg",
     },
     {
       id: 10,
