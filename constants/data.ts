@@ -229,6 +229,71 @@ export const news = [
   },
 ];
 
+export const facts =[
+  {
+    "id": 1,
+    "title": "Samanidlar davrida kutubxonalar",
+    "description": "IX–X asrlarda Buxoro Samanidlar davrida islom olamining ilmiy markaziga aylangan va ko'plab kutubxonalar mavjud bo'lgan.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Samanid_Mausoleum_in_Bukhara.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Ark qal'asidagi kutubxona",
+    "description": "Ark qal'asida joylashgan kutubxonada Abu Ali ibn Sino ilgari hech ko'rmagan noyob kitoblarni topgan.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Ark_Fortress_Bukhara.jpg"
+  },
+  {
+    "id": 3,
+    "title": "Khizanat al-kutub kutubxonasi",
+    "description": "XII asrda Sadrs oilasi tomonidan asos solingan 'Khizanat al-kutub' jamoat kutubxonasi mavjud bo'lgan.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Bukhara_Madrasah.jpg"
+  },
+  {
+    "id": 4,
+    "title": "Madrasalardagi kutubxonalar",
+    "description": "Buxorodagi madrasalarda kutubxonalar mavjud bo'lib, talabalar ba'zan amirdan maxsus ruxsatnoma bilan kitoblar olishgan.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Mir-i_Arab_Madrasa_Bukhara.jpg"
+  },
+  {
+    "id": 5,
+    "title": "20,000 nusxa qo‘lyozmalar",
+    "description": "Samanidlar davrida Mir Arab madrasasiga 20,000 nusxa qo‘lyozmalar hadya qilingan.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Mir-i_Arab_Madrasa.jpg"
+  },
+  {
+    "id": 6,
+    "title": "Abd al-Azizxon kutubxonasi",
+    "description": "XVI asrda Abd al-Azizxon tomonidan tashkil etilgan kutubxona 'dunyoda tengi yo‘q' deb ta'riflangan.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Abdulaziz_Khan_Madrasa_Bukhara.jpg"
+  },
+  {
+    "id": 7,
+    "title": "Kitobxonlar uchun maxsus ruxsatnoma",
+    "description": "Madrasalardagi talabalar kutubxonalardan kitob olish uchun amirdan maxsus ruxsatnoma olishgan.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Bukhara_Library.jpg"
+  },
+  {
+    "id": 8,
+    "title": "Kutubxonachilar lavozimi",
+    "description": "Kutubxonachilar amir tomonidan Kazikalon tavsiyasi bilan tayinlangan va obro‘li lavozim hisoblangan.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Bukhara_Ark_Library.jpg"
+  },
+  {
+    "id": 9,
+    "title": "Kutubxonalar va davlat hujjatlari",
+    "description": "Amirlik davrida kutubxonalar davlat hujjatlari saqlanadigan maxsus xonalarda joylashgan bo‘lib, ular uchun alohida mas'ullar tayinlangan.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Bukhara_State_Archives.jpg"
+  },
+  {
+    "id": 10,
+    "title": "Kutubxonalar va ilmiy meros",
+    "description": "Buxorodagi kutubxonalar asrlar davomida ilm-fan va madaniyatning rivojlanishiga katta hissa qo‘shgan.",
+    "image": "/images/facts/facts-bg.webp"
+  }
+]
+
+
+
 export const localesData = [
   {
     code:"uz"
