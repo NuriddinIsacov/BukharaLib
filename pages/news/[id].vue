@@ -19,10 +19,10 @@
 
 <script setup lang="ts">
 import { news } from "~/constants/data";
-
+const {locale} = useI18n()
 const route = useRoute();
-
-const data = news.find((n) => n.id.toString() == route.params.id);
+const newsData = news[locale.value]
+const data = newsData.find((n) => n.id.toString() == route.params.id);
 </script>
 
 <style scoped></style>

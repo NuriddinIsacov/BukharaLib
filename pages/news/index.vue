@@ -38,7 +38,7 @@
     id="news-list"
     class="bg-gradient-to-r from-[#e9c6a0] to-white py-20 h-auto flex flex-col items-center"
   >
-    <div v-show="news.length == 0" class="grid grid-cols-4 gap-4">
+    <div v-show="data.length == 0" class="grid grid-cols-4 gap-4">
       <USkeleton class="h-32 w-32 rounded-md" />
       <USkeleton class="h-32 w-32 rounded-md" />
       <USkeleton class="h-32 w-32 rounded-md" />
@@ -53,7 +53,7 @@
     <div class="grid grid-cols-3 gap-4 max-w-[1024px] mx-auto">
       <NuxtLink
         :to="`/news/${item.id}`"
-        v-for="item in news"
+        v-for="item in data"
         class="bg-transparent/30 backdrop-blur-md shadow-[0px_4px_16px_rgba(17,17,26,0.05),0px_8px_32px_rgba(17,17,26,0.05)] p-8 rounded"
       >
         <h2 class="text-xl line-clamp-3 font-bold mb-2">{{ item.title }}</h2>
@@ -67,8 +67,10 @@
 
 <script setup lang="ts">
 import { news } from "~/constants/data";
+const {locale} = useI18n()
 const news2: any = [];
-const firstFour = news.slice(0, 4);
+const data = news[locale.value]
+const firstFour = data.slice(0, 4);
 </script>
 
 <style scoped>

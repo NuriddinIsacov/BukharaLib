@@ -5,7 +5,7 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: ["@nuxt/ui", "@nuxt/image", "@nuxtjs/i18n"],
   i18n: {
-    strategy: "prefix_except_default", // keeps '/uz/...' & '/ru/...', but root = 'en'
+    strategy: "prefix", // keeps '/uz/...' & '/ru/...', but root = 'en'
     defaultLocale: "uz", // or whichever you prefer
     detectBrowserLanguage: {
       useCookie: true,

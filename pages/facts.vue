@@ -16,7 +16,7 @@
   <h1 class="text-xl font-bold">{{ t('facts') }}</h1>
     <div class="divide-y divide-gray-300">
       <div
-        v-for="fact in facts"
+        v-for="fact in data"
         :key="fact.id"
         class="group relative flex items-start gap-4 px-6 py-12"
       >
@@ -48,7 +48,9 @@
 <script setup lang="ts">
 import { facts } from "~/constants/data";
 
-const { t } = useI18n();
+const { t, locale } = useI18n();
+
+const data = facts[locale.value]
 </script>
 
 <style scoped></style>
