@@ -15,34 +15,36 @@
   >
     <div class="grid gap-4">
       <NuxtLink
-        v-for="kutubxona in libs"
+        v-for="kutubxona in data"
         :key="kutubxona.id"
         :to="`/libs/${kutubxona?.id}`"
-        class="flex items-center justify-center px-6 bg-white/10 rounded-xl overflow-hidden shadow-[0px_4px_16px_rgba(17,17,26,0.05),0px_8px_32px_rgba(17,17,26,0.05)] transform transition duration-300 hover:scale-102 hover:shadow-lg hover:-translate-y-1"
+        class="flex group items-center gap-8 bg-white/10 rounded-xl overflow-hidden shadow-[0px_4px_16px_rgba(17,17,26,0.05),0px_8px_32px_rgba(17,17,26,0.05)] transform transition duration-300 hover:scale-102 hover:shadow-lg px-6 py-6"
       >
         <!-- Chap tomon: Rasm -->
-        <div class="w-1/3">
-          <img
-            src=""
-            alt="Kutubxona rasmi"
-            class="h-full w-full object-cover"
+        <div class="">
+          <NuxtImg
+            :src="kutubxona.image"
+            alt="Fakt rasmi"
+            class="w-34 h-34 object-cover rounded-md"
           />
         </div>
 
         <!-- O'ng tomon: Ma'lumotlar -->
-        <div class="w-2/3 p-4">
+        <div class="p-4">
           <h2 class="text-xl font-bold mb-2 text-gray-800 line-clamp-1">
-            {{ kutubxona.nomi }}
+            {{ kutubxona.name }}
           </h2>
           <p class="text-gray-600 mb-1">
-            <strong>📍 Manzil:</strong> {{ kutubxona.manzil }}
+            <strong class="capitalize">📍 {{ t("address") }}:</strong>
+            {{ kutubxona.address }}
           </p>
           <p class="text-gray-600 mb-1">
-            <strong>🕒 Ish vaqti:</strong> {{ kutubxona.ish_vaqti }}
+            <strong>🕒 {{ t("working_hours") }}:</strong>
+            {{ kutubxona.working_hours }}
           </p>
           <p class="text-gray-600">
-            <strong>❌ Dam olish kunlari:</strong>
-            {{ kutubxona.dam_olish_kunlari.join(", ") }}
+            <strong>❌ {{ t("days_off") }}:</strong>
+            {{ kutubxona.days_off.join(", ") }}
           </p>
         </div>
       </NuxtLink>
@@ -53,7 +55,9 @@
 <script setup lang="ts">
 import { libs } from "~/constants/data";
 
-const { t } = useI18n();
+const { t, locale } = useI18n();
+
+const data = libs[locale.value];
 </script>
 
 <style scoped></style>

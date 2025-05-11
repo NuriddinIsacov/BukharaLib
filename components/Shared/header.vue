@@ -11,7 +11,11 @@
       <h4
         class="font-bold text-3xl capitalize"
         :class="{
-          'text-white': (route.path.startsWith('/news') || route.path.startsWith('/libs') ) && scrollY < 200,
+          'text-white':
+            (route.path.includes('/news') ||
+              route.path.includes('/libs') ||
+              route.path.includes('/facts')) &&
+            scrollY < 200,
         }"
       >
         Bukhara library
@@ -22,7 +26,11 @@
       <ul
         class="flex items-center gap-6"
         :class="{
-          'text-white': (route.path.startsWith('/news') || route.path.startsWith('/libs') ) && scrollY < 200,
+          'text-white':
+            (route.path.includes('/news') ||
+              route.path.includes('/libs') ||
+              route.path.includes('/facts')) &&
+            scrollY < 200,
         }"
       >
         <li
