@@ -7,7 +7,8 @@ export const libs = {
       working_hours: "08:00 dan 18:00 gacha",
       days_off: ["Yakshanba"],
       image: "/images/libs/1.webp",
-      location:"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4291.791450556116!2d64.41407309079462!3d39.766713284328006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f50060e21ce4359%3A0x14562e62a6b5e000!2z0JHQuNCx0LvQuNC-0YLQtdC60LAg0LjQvCDQkNCx0YMg0JDQu9C4INC40LHQvSDQodC40L3Qvg!5e0!3m2!1sen!2s!4v1746885655633!5m2!1sen!2s"
+      location:
+        "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4291.791450556116!2d64.41407309079462!3d39.766713284328006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f50060e21ce4359%3A0x14562e62a6b5e000!2z0JHQuNCx0LvQuNC-0YLQtdC60LAg0LjQvCDQkNCx0YMg0JDQu9C4INC40LHQvSDQodC40L3Qvg!5e0!3m2!1sen!2s!4v1746885655633!5m2!1sen!2s",
     },
     {
       id: 2,
@@ -16,7 +17,8 @@ export const libs = {
       working_hours: "09:00 dan 18:00 gacha",
       days_off: ["Shanba", "Yakshanba"],
       image: "/images/libs/2.webp",
-      location: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15239.232960314308!2d64.37919227083371!3d39.77362605353602!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f50072c22e0a50d%3A0xfbdf411ce08fc8d5!2z0JHRg9GF0L7RgNC-INCy0LjQu9C-0Y_RgtC4INC60Z7Qt9C4INC-0LbQuNC30LvQsNGAINC80LDRhdGB0YPRgSDQutGD0YLRg9Cx0YXQvtC90LDRgdC4!5e0!3m2!1sen!2s!4v1746885879109!5m2!1sen!2s"
+      location:
+        "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15239.232960314308!2d64.37919227083371!3d39.77362605353602!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f50072c22e0a50d%3A0xfbdf411ce08fc8d5!2z0JHRg9GF0L7RgNC-INCy0LjQu9C-0Y_RgtC4INC60Z7Qt9C4INC-0LbQuNC30LvQsNGAINC80LDRhdGB0YPRgSDQutGD0YLRg9Cx0YXQvtC90LDRgdC4!5e0!3m2!1sen!2s!4v1746885879109!5m2!1sen!2s",
     },
     {
       id: 3,
@@ -25,7 +27,8 @@ export const libs = {
       working_hours: "08:00 dan 18:00 gacha, Shanba kuni 12:00 gacha",
       days_off: ["Yakshanba"],
       image: "/images/libs/3.jpg",
-      location: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d948.1858608846234!2d63.80316569153674!3d39.41772361896176!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f4533dfda4f0513%3A0x92b8454eeb8d331d!2sKutubxona!5e0!3m2!1sen!2s!4v1746885947690!5m2!1sen!2s"
+      location:
+        "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d948.1858608846234!2d63.80316569153674!3d39.41772361896176!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f4533dfda4f0513%3A0x92b8454eeb8d331d!2sKutubxona!5e0!3m2!1sen!2s!4v1746885947690!5m2!1sen!2s",
     },
     {
       id: 4,
@@ -44,7 +47,8 @@ export const libs = {
       working_hours: "08:00 dan 18:00 gacha, Shanba kuni 12:00 gacha",
       days_off: ["Yakshanba"],
       image: "/images/libs/5.png",
-      location: "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d763.8864621606865!2d64.5216771!3d40.0185909!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f5073c14b9f1883%3A0x703fe3d354785026!2sVobkent%20tuman%20hokimligi!5e0!3m2!1sen!2s!4v1746886467901!5m2!1sen!2s"
+      location:
+        "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d763.8864621606865!2d64.5216771!3d40.0185909!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f5073c14b9f1883%3A0x703fe3d354785026!2sVobkent%20tuman%20hokimligi!5e0!3m2!1sen!2s!4v1746886467901!5m2!1sen!2s",
     },
     {
       id: 6,
@@ -53,7 +57,8 @@ export const libs = {
       working_hours: "08:00 dan 18:00 gacha, Shanba kuni 12:00 gacha",
       days_off: ["Yakshanba"],
       image: "/images/libs/6.jpg",
-      location: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15560.9954654291!2d64.16397245374331!3d39.74105260252902!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f5aa5beac0cba41%3A0x8218fdb9bf37f055!2z0JbQvtC90LTQvtGAINGC0YPQvNCw0L0g0YjQsNGF0YHQuNC5INGC0LDRgNC60LjQsSDSs9GD0LbQttCw0YLQu9Cw0YDQuCDQtNCw0LLQu9Cw0YIg0LDRgNGF0LjQstC4!5e0!3m2!1sen!2s!4v1746886526169!5m2!1sen!2s"
+      location:
+        "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15560.9954654291!2d64.16397245374331!3d39.74105260252902!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f5aa5beac0cba41%3A0x8218fdb9bf37f055!2z0JbQvtC90LTQvtGAINGC0YPQvNCw0L0g0YjQsNGF0YHQuNC5INGC0LDRgNC60LjQsSDSs9GD0LbQttCw0YLQu9Cw0YDQuCDQtNCw0LLQu9Cw0YIg0LDRgNGF0LjQstC4!5e0!3m2!1sen!2s!4v1746886526169!5m2!1sen!2s",
     },
     {
       id: 7,
@@ -62,7 +67,8 @@ export const libs = {
       working_hours: "08:00 dan 18:00 gacha, Shanba kuni 12:00 gacha",
       days_off: ["Yakshanba"],
       image: "/images/libs/7.jpg",
-      location: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15560.9954654291!2d64.16397245374331!3d39.74105260252902!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f5aa5beac0cba41%3A0x8218fdb9bf37f055!2z0JbQvtC90LTQvtGAINGC0YPQvNCw0L0g0YjQsNGF0YHQuNC5INGC0LDRgNC60LjQsSDSs9GD0LbQttCw0YLQu9Cw0YDQuCDQtNCw0LLQu9Cw0YIg0LDRgNGF0LjQstC4!5e0!3m2!1sen!2s!4v1746886526169!5m2!1sen!2s"
+      location:
+        "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15560.9954654291!2d64.16397245374331!3d39.74105260252902!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f5aa5beac0cba41%3A0x8218fdb9bf37f055!2z0JbQvtC90LTQvtGAINGC0YPQvNCw0L0g0YjQsNGF0YHQuNC5INGC0LDRgNC60LjQsSDSs9GD0LbQttCw0YLQu9Cw0YDQuCDQtNCw0LLQu9Cw0YIg0LDRgNGF0LjQstC4!5e0!3m2!1sen!2s!4v1746886526169!5m2!1sen!2s",
     },
     {
       id: 8,
@@ -76,11 +82,13 @@ export const libs = {
     },
     {
       id: 9,
-      name: "Peshkun tumani Axborot va Kutubxona Markazi",
+      name: "Peshku tumani Axborot va Kutubxona Markazi",
       address: "Amir Temur ko'chasi, 6-uy",
       working_hours: "08:00 dan 18:00 gacha, Shanba kuni 12:00 gacha",
       days_off: ["Yakshanba"],
       image: "/images/libs/9.webp",
+      location:
+        "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3054.526224856481!2d64.39585415270965!3d40.041356094217996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f5076e2f0555555%3A0xc422b3d525c00635!2sPeshku%20Hokimiyat!5e0!3m2!1sen!2s!4v1746960315154!5m2!1sen!2s",
     },
     {
       id: 10,
@@ -89,6 +97,8 @@ export const libs = {
       working_hours: "08:00 dan 18:00 gacha, Shanba kuni 12:00 gacha",
       days_off: ["Yakshanba"],
       image: "/images/libs/10.jpg",
+      location:
+        "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3059.3233208093025!2d64.37736191552578!3d39.93415700205485!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f5075260ccd848f%3A0xf3ddc700208ed7f9!2sW9MH%2BPJJ%2C%20Ramitan%2C%20Bukhara%20Region%2C%20Uzbekistan!5e0!3m2!1sen!2s!4v1746942898437!5m2!1sen!2s",
     },
     {
       id: 11,
@@ -97,14 +107,18 @@ export const libs = {
       working_hours: "08:00 dan 18:00 gacha, Shanba kuni 12:00 gacha",
       days_off: ["Yakshanba"],
       image: "/images/libs/11.jpg",
+      location:
+        "https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d3051.0166742173174!2d64.49918908097749!3d40.119631886007255!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sShofirkon%20axborot%20markazi!5e0!3m2!1sen!2s!4v1746943016518!5m2!1sen!2s",
     },
     {
       id: 12,
-      name: "Karakul tumani Axborot va Kutubxona Markazi",
+      name: "Qorako'l tumani Axborot va Kutubxona Markazi",
       address: "Ulug'bek ko'chasi, 229-uy",
       working_hours: "Ma'lumot yo'q",
       days_off: [],
       image: "/images/libs/12.jpg",
+      location:
+        "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6156.567098570511!2d63.83280605077743!3d39.50808963889714!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f5acdc86442699b%3A0xe6003672899d5431!2sQORAKO&#39;L%20ILM%20NURI%20O&#39;QUV%20MARKAZI!5e0!3m2!1sen!2s!4v1746960514134!5m2!1sen!2s",
     },
     {
       id: 13,
@@ -113,6 +127,8 @@ export const libs = {
       working_hours: "08:00 dan 18:00 gacha, Shanba kuni 12:00 gacha",
       days_off: ["Yakshanba"],
       image: "/images/libs/13.png",
+      location:
+        "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3078.599568594229!2d64.79360603405308!3d39.50095567309272!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f4fc33b88abc637%3A0x53e2358f524e53b2!2sQorovulbozor%20tuman%20sanitariya%20epidemiologik%20osoyishtalik%20va%20jamoat%20salomatligi%20bo&#39;limi.!5e0!3m2!1sen!2s!4v1746943321545!5m2!1sen!2s",
     },
     {
       id: 14,
@@ -121,6 +137,8 @@ export const libs = {
       working_hours: "08:00 dan 18:00 gacha, Shanba kuni 12:00 gacha",
       days_off: ["Yakshanba"],
       image: "/images/libs/14.jpg",
+      location:
+        "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d24419.065488349745!2d64.65440158057994!3d40.089168787535634!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f5069a4888e8eed%3A0x6072cf0736e3e6e0!2sG&#39;jduvon%20tuman%20axborot-kutubxona%20markazi!5e0!3m2!1sen!2s!4v1746956883745!5m2!1sen!2s",
     },
     {
       id: 15,
@@ -129,6 +147,8 @@ export const libs = {
       working_hours: "08:00 dan 18:00 gacha",
       days_off: ["Shanba", "Yakshanba"],
       image: "/images/libs/15.jpg",
+      location:
+        "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d196148.44836958594!2d64.18845313219605!3d39.811040320549616!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f5007c00cfbd255%3A0x5a60e93555c18d22!2sViloyat%20bolalar%20kutubxonasi!5e0!3m2!1sen!2s!4v1746956958563!5m2!1sen!2s",
     },
     {
       id: 16,
@@ -137,6 +157,8 @@ export const libs = {
       working_hours: "Dushanba - Shanba: 09:00 dan 18:00 gacha",
       days_off: ["Yakshanba"],
       image: "/images/libs/16.jpg",
+      location:
+        "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12267.242147625764!2d64.4043674050521!3d39.76636208855772!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f5007d44591c761%3A0x7571f09698cacec4!2sYoshlar%20markazi!5e0!3m2!1sen!2s!4v1746957026818!5m2!1sen!2s",
     },
     {
       id: 17,
@@ -146,6 +168,8 @@ export const libs = {
         "Dushanba - Juma: 08:30 dan 17:00 gacha, Shanba: qisqa kun yoki yopiq",
       days_off: ["Yakshanba"],
       image: "/images/libs/17.jpg",
+      location:
+        "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12267.23643239309!2d64.404367401606!3d39.766394165657196!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f50060e21ce4359%3A0x14562e62a6b5e000!2z0JHQuNCx0LvQuNC-0YLQtdC60LAg0LjQvCDQkNCx0YMg0JDQu9C4INC40LHQvSDQodC40L3Qvg!5e0!3m2!1sen!2s!4v1746957108333!5m2!1sen!2s",
     },
   ],
   ru: [
@@ -156,272 +180,291 @@ export const libs = {
       working_hours: "с 08:00 до 18:00",
       days_off: ["Воскресенье"],
       image: "/images/libs/1.webp",
+      location:
+        "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4291.791450556116!2d64.41407309079462!3d39.766713284328006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f50060e21ce4359%3A0x14562e62a6b5e000!2z0JHQuNCx0LvQuNC-0YLQtdC60LAg0LjQvCDQkNCx0YMg0JDQu9C4INC40LHQvSDQodC40L3Qvg!5e0!3m2!1sen!2s!4v1746885655633!5m2!1sen!2s",
     },
     {
       id: 2,
-      name: "Областная библиотека для слепых Бухары",
+      name: "Бухарская областная библиотека для слепых",
       address: "г. Бухара, ул. Абая, 6/31",
       working_hours: "с 09:00 до 18:00",
       days_off: ["Суббота", "Воскресенье"],
       image: "/images/libs/2.webp",
+      location:
+        "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15239.232960314308!2d64.37919227083371!3d39.77362605353602!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f50072c22e0a50d%3A0xfbdf411ce08fc8d5!2z0JHRg9GF0L7RgNC-INCy0LjQu9C-0Y_RgtC4INC60Z7Qt9C4INC-0LbQuNC30LvQsNGA INC80LDRhdGB0YPRgSDQutGD0YLRg9Cx0YXQvtC90LDRgdC4!5e0!3m2!1sen!2s!4v1746885879109!5m2!1sen!2s",
     },
     {
       id: 3,
-      name: "Информационно-библиотечный центр Алатского района",
-      address: "МФЙ Бунёдкор, ул. Бунёдкор, 50",
-      working_hours: "с 08:00 до 18:00, в субботу до 12:00",
+      name: "Алатский районный информационно-библиотечный центр",
+      address: "МФЯ Бунёдкор, ул. Бунёдкор, 50",
+      working_hours: "с 08:00 до 18:00 (до 12:00 в субботу)",
       days_off: ["Воскресенье"],
       image: "/images/libs/3.jpg",
+      location:
+        "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d948.1858608846234!2d63.80316569153674!3d39.41772361896176!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f4533dfda4f0513%3A0x92b8454eeb8d331d!2sKutubxona!5e0!3m2!1sen!2s!4v1746885947690!5m2!1sen!2s",
     },
     {
       id: 4,
-      name: "Информационно-библиотечный центр Бухарского района",
+      name: "Бухарский районный информационно-библиотечный центр",
       address: "ул. Ибн Сины, 1",
-      working_hours: "с 08:00 до 18:00, в субботу до 12:00",
+      working_hours: "с 08:00 до 18:00 (до 12:00 в субботу)",
       days_off: ["Воскресенье"],
       image: "/images/libs/4.png",
+      location:
+        "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2995.345678901!2d64.430789!3d39.769912!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f4e1c3456789012%3A0xabcdef3456789012!2sBuxoro%20District%20Library!5e0!3m2!1sen!2s!4v1746883954296!5m2!1sen!2s",
     },
     {
       id: 5,
-      name: "Информационно-библиотечный центр Вабкентского района",
+      name: "Вабкентский районный информационно-библиотечный центр",
       address: "ул. Ахмада Дониша, 44",
-      working_hours: "с 08:00 до 18:00, в субботу до 12:00",
+      working_hours: "с 08:00 до 18:00 (до 12:00 в субботу)",
       days_off: ["Воскресенье"],
       image: "/images/libs/5.png",
+      location:
+        "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d763.8864621606865!2d64.5216771!3d40.0185909!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f5073c14b9f1883%3A0x703fe3d354785026!2sVobkent%20tuman%20hokimligi!5e0!3m2!1sen!2s!4v1746886467901!5m2!1sen!2s",
     },
     {
       id: 6,
-      name: "Информационно-библиотечный центр Жондорского района",
-      address: "ул. Махмуда Торабий, 46",
-      working_hours: "с 08:00 до 18:00, в субботу до 12:00",
+      name: "Жондорский районный информационно-библиотечный центр",
+      address: "ул. Махмуда Тораби, 46",
+      working_hours: "с 08:00 до 18:00 (до 12:00 в субботу)",
       days_off: ["Воскресенье"],
       image: "/images/libs/6.jpg",
+      location:
+        "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15560.9954654291!2d64.16397245374331!3d39.74105260252902!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f5aa5beac0cba41%3A0x8218fdb9bf37f055!2z0JbQvtC90LTQvtGAINGC0YPQvNCw0L0g0YjQsNGF0YHQuNC5INGC0LDRgNC60LjQsSDSs9GD0LbQttCw0YLQu9Cw0YDQuCDQtNCw0LLQu9Cw0YIg0LDRgNGF0LjQstC4!5e0!3m2!1sen!2s!4v1746886526169!5m2!1sen!2s",
     },
     {
       id: 7,
-      name: "Информационно-библиотечный центр Каганского района",
-      address: "КФЙ Ниёзходжи, село Ниёзходжи",
-      working_hours: "с 08:00 до 18:00, в субботу до 12:00",
+      name: "Каганский районный информационно-библиотечный центр",
+      address: "кишлак Ниёзходжи, КФЙ Ниёзходжи",
+      working_hours: "с 08:00 до 18:00 (до 12:00 в субботу)",
       days_off: ["Воскресенье"],
       image: "/images/libs/7.jpg",
+      location:
+        "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15560.9954654291!2d64.16397245374331!3d39.74105260252902!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f5aa5beac0cba41%3A0x8218fdb9bf37f055!2z0JbQvtC90LTQvtGAINGC0YPQvNCw0L0g0YjQsNGF0YHQuNC5INGC0LDRgNC60LjQsSDSs9GD0LbQttCw0YLQu9Cw0YDQuCDQtNCw0LLQu9Cw0YIg0LDRgNGF0LjQstC4!5e0!3m2!1sen!2s!4v1746886526169!5m2!1sen!2s",
     },
     {
       id: 8,
-      name: "Информационно-библиотечный центр города Каган",
+      name: "Каганский городской информационно-библиотечный центр",
       address: "ул. Ватанпарвар, 4",
-      working_hours: "с 08:00 до 18:00, в субботу до 12:00",
+      working_hours: "с 08:00 до 18:00 (до 12:00 в субботу)",
       days_off: ["Воскресенье"],
       image: "/images/libs/8.webp",
+      location:
+        "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2995.789012345!2d64.436123!3d39.773956!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f4e1c7890123456%3A0xabcdef7890123456!2sKagan%20City%20Library!5e0!3m2!1sen!2s!4v1746883954296!5m2!1sen!2s",
     },
     {
       id: 9,
-      name: "Информационно-библиотечный центр Пешкунского района",
+      name: "Пешкунский районный информационно-библиотечный центр",
       address: "ул. Амира Темура, 6",
-      working_hours: "с 08:00 до 18:00, в субботу до 12:00",
+      working_hours: "с 08:00 до 18:00 (до 12:00 в субботу)",
       days_off: ["Воскресенье"],
       image: "/images/libs/9.webp",
+      location:
+        "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3054.526224856481!2d64.39585415270965!3d40.041356094217996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f5076e2f0555555%3A0xc422b3d525c00635!2sPeshku%20Hokimiyat!5e0!3m2!1sen!2s!4v1746960315154!5m2!1sen!2s",
     },
     {
       id: 10,
-      name: "Информационно-библиотечный центр Ромитанского района",
-      address: "МФЙ Ибн Сина, ул. Янги Хаёт, 100",
-      working_hours: "с 08:00 до 18:00, в субботу до 12:00",
+      name: "Ромитанский районный информационно-библиотечный центр",
+      address: "ул. Янги Хаёт, 100, МФЯ Ибн Сина",
+      working_hours: "с 08:00 до 18:00 (до 12:00 в субботу)",
       days_off: ["Воскресенье"],
       image: "/images/libs/10.jpg",
+      location:
+        "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3059.3233208093025!2d64.37736191552578!3d39.93415700205485!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f5075260ccd848f%3A0xf3ddc700208ed7f9!2sW9MH%2BPJJ%2C%20Ramitan%2C%20Bukhara%20Region%2C%20Uzbekistan!5e0!3m2!1sen!2s!4v1746942898437!5m2!1sen!2s",
     },
     {
       id: 11,
-      name: "Информационно-библиотечный центр Шафирканского района",
+      name: "Шофирконский районный информационно-библиотечный центр",
       address: "ул. Файзуллы Ходжаева, 9",
-      working_hours: "с 08:00 до 18:00, в субботу до 12:00",
+      working_hours: "с 08:00 до 18:00 (до 12:00 в субботу)",
       days_off: ["Воскресенье"],
       image: "/images/libs/11.jpg",
+      location:
+        "https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d3051.0166742173174!2d64.49918908097749!3d40.119631886007255!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sShofirkon%20axborot%20markazi!5e0!3m2!1sen!2s!4v1746943016518!5m2!1sen!2s",
     },
     {
       id: 12,
-      name: "Информационно-библиотечный центр Каракульского района",
+      name: "Каракульский районный информационно-библиотечный центр",
       address: "ул. Улугбека, 229",
-      working_hours: "Нет информации",
+      working_hours: "Информация отсутствует",
       days_off: [],
       image: "/images/libs/12.jpg",
-    },
-    {
-      id: 13,
-      name: "Информационно-библиотечный центр Караулбазарского района",
-      address: "ул. Геологов, 1",
-      working_hours: "с 08:00 до 18:00, в субботу до 12:00",
-      days_off: ["Воскресенье"],
-      image: "/images/libs/13.jpg",
-    },
-    {
-      id: 14,
-      name: "Информационно-библиотечный центр Гиждуванского района",
-      address: "ул. А. Гиждувоний Шох, 70",
-      working_hours: "с 08:00 до 18:00, в субботу до 12:00",
-      days_off: ["Воскресенье"],
-      image: "/images/libs/14.jpg",
-    },
-    {
-      id: 15,
-      name: "Детская областная библиотека имени Наршахи",
-      address: "г. Бухара, ул. Х. Ибодова, 4",
-      working_hours: "с 08:00 до 18:00",
-      days_off: ["Суббота", "Воскресенье"],
-      image: "/images/libs/15.jpg",
-    },
-    {
-      id: 16,
-      name: "Библиотека Молодёжного Центра Бухары",
-      address: "ул. Гиждуван, здание Молодёжного Центра",
-      working_hours: "Пн - Сб: с 09:00 до 18:00",
-      days_off: ["Воскресенье"],
-      image: "/images/libs/16.jpg",
-    },
-    {
-      id: 17,
-      name: "Медицинская библиотека имени Абу Али ибн Сины",
-      address: "ул. Ибн Сины, территория Бухарского мединститута",
-      working_hours: "Пн - Пт: с 08:30 до 17:00, Сб: короткий день или закрыто",
-      days_off: ["Воскресенье"],
-      image: "/images/libs/17.jpg",
+      location:
+        "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6156.567098570511!2d63.83280605077743!3d39.50808963889714!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f5acdc86442699b%3A0xe6003672899d5431!2sQORAKO&#39;L%20ILM%20NURI%20O&#39;QUV%20MARKAZI!5e0!3m2!1sen!2s!4v1746960514134!5m2!1sen!2s",
     },
   ],
   en: [
     {
       id: 1,
-      name: "Bukhara Regional Information and Library Center named after Abu Ali Ibn Sina",
-      address: "Bukhara city, I. Muminov street, 6",
+      name: "Abu Ali Ibn Sina Bukhara Regional Information and Library Center",
+      address: "6, I. Muminov Street, Bukhara City",
       working_hours: "08:00 to 18:00",
       days_off: ["Sunday"],
       image: "/images/libs/1.webp",
+      location:
+        "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4291.791450556116!2d64.41407309079462!3d39.766713284328006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f50060e21ce4359%3A0x14562e62a6b5e000!2z0JHQuNCx0LvQuNC-0YLQtdC60LAg0LjQvCDQkNCx0YMg0JDQu9C4INC40LHQvSDQodC40L3Qvg!5e0!3m2!1sen!2s!4v1746885655633!5m2!1sen!2s",
     },
     {
       id: 2,
       name: "Bukhara Regional Library for the Blind",
-      address: "Bukhara city, Abay street, 6/31",
+      address: "6/31, Abay Street, Bukhara City",
       working_hours: "09:00 to 18:00",
       days_off: ["Saturday", "Sunday"],
       image: "/images/libs/2.webp",
+      location:
+        "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15239.232960314308!2d64.37919227083371!3d39.77362605353602!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f50072c22e0a50d%3A0xfbdf411ce08fc8d5!2z0JHRg9GF0L7RgNC-INCy0LjQu9C-0Y_RgtC4INC60Z7Qt9C4INC-0LbQuNC30LvQsNGAINC80LDRhdGB0YPRgSDQutGD0YLRg9Cx0YXQvtC90LDRgdC4!5e0!3m2!1sen!2s!4v1746885879109!5m2!1sen!2s",
     },
     {
       id: 3,
-      name: "Alat District Information and Library Center",
-      address: "Bunyodkor MFY, Bunyodkor street, 50",
-      working_hours: "08:00 to 18:00, Saturday until 12:00",
+      name: "Olot District Information and Library Center",
+      address: "50, Bunyodkor Street, Bunyodkor MFY",
+      working_hours: "08:00 to 18:00 (until 12:00 on Saturday)",
       days_off: ["Sunday"],
       image: "/images/libs/3.jpg",
+      location:
+        "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d948.1858608846234!2d63.80316569153674!3d39.41772361896176!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f4533dfda4f0513%3A0x92b8454eeb8d331d!2sKutubxona!5e0!3m2!1sen!2s!4v1746885947690!5m2!1sen!2s",
     },
     {
       id: 4,
       name: "Bukhara District Information and Library Center",
-      address: "Ibn Sina street, 1",
-      working_hours: "08:00 to 18:00, Saturday until 12:00",
+      address: "1, Ibn Sina Street",
+      working_hours: "08:00 to 18:00 (until 12:00 on Saturday)",
       days_off: ["Sunday"],
       image: "/images/libs/4.png",
+      location:
+        "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2995.345678901!2d64.430789!3d39.769912!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f4e1c3456789012%3A0xabcdef3456789012!2sBuxoro%20District%20Library!5e0!3m2!1sen!2s!4v1746883954296!5m2!1sen!2s",
     },
     {
       id: 5,
       name: "Vobkent District Information and Library Center",
-      address: "Ahmad Donish street, 44",
-      working_hours: "08:00 to 18:00, Saturday until 12:00",
+      address: "44, Ahmad Donish Street",
+      working_hours: "08:00 to 18:00 (until 12:00 on Saturday)",
       days_off: ["Sunday"],
       image: "/images/libs/5.png",
+      location:
+        "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d763.8864621606865!2d64.5216771!3d40.0185909!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f5073c14b9f1883%3A0x703fe3d354785026!2sVobkent%20tuman%20hokimligi!5e0!3m2!1sen!2s!4v1746886467901!5m2!1sen!2s",
     },
     {
       id: 6,
       name: "Jondor District Information and Library Center",
-      address: "Makhmud Torabiy street, 46",
-      working_hours: "08:00 to 18:00, Saturday until 12:00",
+      address: "46, Makhmud Torabiy Street",
+      working_hours: "08:00 to 18:00 (until 12:00 on Saturday)",
       days_off: ["Sunday"],
       image: "/images/libs/6.jpg",
+      location:
+        "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15560.9954654291!2d64.16397245374331!3d39.74105260252902!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f5aa5beac0cba41%3A0x8218fdb9bf37f055!2z0JbQvtC90LTQvtGAINGC0YPQvNCw0L0g0YjQsNGF0YHQuNC5INGC0LDRgNC60LjQsSDSs9GD0LbQttCw0YLQu9Cw0YDQuCDQtNCw0LLQu9Cw0YIg0LDRgNGF0LjQstC4!5e0!3m2!1sen!2s!4v1746886526169!5m2!1sen!2s",
     },
     {
       id: 7,
       name: "Kagan District Information and Library Center",
-      address: "Niyozkhodji KFY, Niyozkhodji village",
-      working_hours: "08:00 to 18:00, Saturday until 12:00",
+      address: "Niyozkhodji village, Niyozkhodji KFY",
+      working_hours: "08:00 to 18:00 (until 12:00 on Saturday)",
       days_off: ["Sunday"],
       image: "/images/libs/7.jpg",
+      location:
+        "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15560.9954654291!2d64.16397245374331!3d39.74105260252902!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f5aa5beac0cba41%3A0x8218fdb9bf37f055!2z0JbQvtC90LTQvtGAINGC0YPQvNCw0L0g0YjQsNGF0YHQuNC5INGC0LDRgNC60LjQsSDSs9GD0LbQttCw0YLQu9Cw0YDQuCDQtNCw0LLQu9Cw0YIg0LDRgNGF0LjQstC4!5e0!3m2!1sen!2s!4v1746886526169!5m2!1sen!2s",
     },
     {
       id: 8,
       name: "Kagan City Information and Library Center",
-      address: "Vatanparvar street, 4",
-      working_hours: "08:00 to 18:00, Saturday until 12:00",
+      address: "4, Vatanparvar Street",
+      working_hours: "08:00 to 18:00 (until 12:00 on Saturday)",
       days_off: ["Sunday"],
       image: "/images/libs/8.webp",
+      location:
+        "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2995.789012345!2d64.436123!3d39.773956!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f4e1c7890123456%3A0xabcdef7890123456!2sKagan%20City%20Library!5e0!3m2!1sen!2s!4v1746883954296!5m2!1sen!2s",
     },
     {
       id: 9,
       name: "Peshkun District Information and Library Center",
-      address: "Amir Temur street, 6",
-      working_hours: "08:00 to 18:00, Saturday until 12:00",
+      address: "6, Amir Temur Street",
+      working_hours: "08:00 to 18:00 (until 12:00 on Saturday)",
       days_off: ["Sunday"],
       image: "/images/libs/9.webp",
+      location:
+        "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3054.526224856481!2d64.39585415270965!3d40.041356094217996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f5076e2f0555555%3A0xc422b3d525c00635!2sPeshku%20Hokimiyat!5e0!3m2!1sen!2s!4v1746960315154!5m2!1sen!2s",
     },
     {
       id: 10,
       name: "Romitan District Information and Library Center",
-      address: "Ibn Sina MFY, Yangi Hayot street, 100",
-      working_hours: "08:00 to 18:00, Saturday until 12:00",
+      address: "100, Yangi Khayot Street, Ibn Sina MFY",
+      working_hours: "08:00 to 18:00 (until 12:00 on Saturday)",
       days_off: ["Sunday"],
       image: "/images/libs/10.jpg",
+      location:
+        "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3059.3233208093025!2d64.37736191552578!3d39.93415700205485!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f5075260ccd848f%3A0xf3ddc700208ed7f9!2sW9MH%2BPJJ%2C%20Ramitan%2C%20Bukhara%20Region%2C%20Uzbekistan!5e0!3m2!1sen!2s!4v1746942898437!5m2!1sen!2s",
     },
     {
       id: 11,
       name: "Shofirkon District Information and Library Center",
-      address: "Fayzulla Khojaev street, 9",
-      working_hours: "08:00 to 18:00, Saturday until 12:00",
+      address: "9, Fayzulla Khojaev Street",
+      working_hours: "08:00 to 18:00 (until 12:00 on Saturday)",
       days_off: ["Sunday"],
       image: "/images/libs/11.jpg",
+      location:
+        "https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d3051.0166742173174!2d64.49918908097749!3d40.119631886007255!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sShofirkon%20axborot%20markazi!5e0!3m2!1sen!2s!4v1746943016518!5m2!1sen!2s",
     },
     {
       id: 12,
       name: "Karakul District Information and Library Center",
-      address: "Ulugbek street, 229",
-      working_hours: "No information",
+      address: "229, Ulugbek Street",
+      working_hours: "Information not available",
       days_off: [],
       image: "/images/libs/12.jpg",
+      location:
+        "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6156.567098570511!2d63.83280605077743!3d39.50808963889714!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f5acdc86442699b%3A0xe6003672899d5431!2sQORAKO&#39;L%20ILM%20NURI%20O&#39;QUV%20MARKAZI!5e0!3m2!1sen!2s!4v1746960514134!5m2!1sen!2s",
     },
     {
       id: 13,
-      name: "Karaulbazar District Information and Library Center",
-      address: "Geologlar street, 1",
-      working_hours: "08:00 to 18:00, Saturday until 12:00",
-      days_off: ["Sunday"],
-      image: "/images/libs/13.jpg",
+      name: "Караулбазарский районный информационно-библиотечный центр",
+      address: "ул. Геологов, 1",
+      working_hours: "с 08:00 до 18:00 (до 12:00 в субботу)",
+      days_off: ["Воскресенье"],
+      image: "/images/libs/13.png",
+      location:
+        "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3078.599568594229!2d64.79360603405308!3d39.50095567309272!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f4fc33b88abc637%3A0x53e2358f524e53b2!2sQorovulbozor%20tuman%20sanitariya%20epidemiologik%20osoyishtalik%20va%20jamoat%20salomatligi%20bo%27limi.!5e0!3m2!1sen!2s!4v1746943321545!5m2!1sen!2s",
     },
     {
       id: 14,
-      name: "Gijduvan District Information and Library Center",
-      address: "A. Gijduvaniy Shokh street, 70",
-      working_hours: "08:00 to 18:00, Saturday until 12:00",
-      days_off: ["Sunday"],
+      name: "Гиждуванский районный информационно-библиотечный центр",
+      address: "ул. А. Гиждувони Шох, 70",
+      working_hours: "с 08:00 до 18:00 (до 12:00 в субботу)",
+      days_off: ["Воскресенье"],
       image: "/images/libs/14.jpg",
+      location:
+        "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d24419.065488349745!2d64.65440158057994!3d40.089168787535634!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f5069a4888e8eed%3A0x6072cf0736e3e6e0!2sG%27jduvon%20tuman%20axborot-kutubxona%20markazi!5e0!3m2!1sen!2s!4v1746956883745!5m2!1sen!2s",
     },
     {
       id: 15,
-      name: "Regional Children's Library named after Narshakhi",
-      address: "Bukhara city, H. Ibodov street, 4",
-      working_hours: "08:00 to 18:00",
-      days_off: ["Saturday", "Sunday"],
+      name: "Бухарская областная детская библиотека имени Наршахи",
+      address: "г. Бухара, ул. Х. Ибодова, 4",
+      working_hours: "с 08:00 до 18:00",
+      days_off: ["Суббота", "Воскресенье"],
       image: "/images/libs/15.jpg",
+      location:
+        "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d196148.44836958594!2d64.18845313219605!3d39.811040320549616!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f5007c00cfbd255%3A0x5a60e93555c18d22!2sViloyat%20bolalar%20kutubxonasi!5e0!3m2!1sen!2s!4v1746956958563!5m2!1sen!2s",
     },
     {
       id: 16,
-      name: "Bukhara Youth Center Library",
-      address: "Gijduvan street, Youth Center building",
-      working_hours: "Monday - Saturday: 09:00 to 18:00",
-      days_off: ["Sunday"],
+      name: "Библиотека Бухарского молодежного центра",
+      address: "ул. Гиждуван, здание Молодежного центра",
+      working_hours: "Понедельник-Суббота: с 09:00 до 18:00",
+      days_off: ["Воскресенье"],
       image: "/images/libs/16.jpg",
+      location:
+        "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12267.242147625764!2d64.4043674050521!3d39.76636208855772!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f5007d44591c761%3A0x7571f09698cacec4!2sYoshlar%20markazi!5e0!3m2!1sen!2s!4v1746957026818!5m2!1sen!2s",
     },
     {
       id: 17,
-      name: "Medical Library named after Abu Ali Ibn Sina",
-      address: "Ibn Sina street, within Bukhara Medical Institute",
-      working_hours: "Mon - Fri: 08:30 to 17:00, Sat: short day or closed",
-      days_off: ["Sunday"],
+      name: "Медицинская библиотека имени Абу Али ибн Сины",
+      address: "ул. Ибн Сины, территория Бухарского медицинского института",
+      working_hours:
+        "Понедельник-Пятница: с 08:30 до 17:00, Суббота: сокращенный день или выходной",
+      days_off: ["Воскресенье"],
       image: "/images/libs/17.jpg",
+      location:
+        "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12267.23643239309!2d64.404367401606!3d39.766394165657196!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f50060e21ce4359%3A0x14562e62a6b5e000!2z0JHQuNCx0LvQuNC-0YLQtdC60LAg0LjQvCDQkNCx0YMg0JDQu9C4INC40LHQvSDQodC40L3Qvg!5e0!3m2!1sen!2s!4v1746957108333!5m2!1sen!2s",
     },
   ],
 };
