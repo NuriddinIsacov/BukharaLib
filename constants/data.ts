@@ -1024,3 +1024,68 @@ export const localesData = [
     code: "en",
   },
 ];
+
+export const celebrities = [
+  {
+    id: 1,
+    name: "Abdurauf Fitrat",
+    childhood:
+      "Abdurauf Fitrat 1886-yili Buxoro shahrida savdogar Abdurahimboy oilasida tug‘ilgan. Otasi savdo ishlari bilan Turkiya, Eron, Koshg‘arga borib turgan o‘qimishli inson bo‘lgan. Onasi Nastarin Bibi taxminan 1866-yili tug‘ilgan. Fitratning ukasi Abdurahmon Kogon bosmaxonasida harf teruvchi, singlisi Mahbuba esa 1920-yillar faollaridan biri bo‘lgan.",
+    info: "Fitrat dastlab eski maktabda, keyin Mir Arab madrasasida o‘qigan. 1909–1913-yillarda Istanbulda 'Tarbiyai atfol' jamiyati ko‘magida tahsil olgan. Sadriddin Ayniy unga yuqori baho bergan va uni ochiq fikrli, qobiliyatli yoshlar qatorida tilga olgan.",
+    activity:
+      "1912-1916-yillarda Buxoro va Qarshida jadid maktablari ochib, muallimlik qilgan. 1917-yilda 'Yosh buxoroliklar' firqasining mafkurachilaridan biri bo‘lgan. Buxorodan chiqarilgach, Samarqandda 'Hurriyat' gazetasiga muharrirlik qilgan. 1914–1925-yillarda ko‘plab ijtimoiy-siyosiy asarlar yozgan.",
+    death:
+      "1937-yil 24-aprelda qamoqqa olingan. Sovet hokimiyatiga qarshi harakatda ayblanib, tergov va qiynoqlardan so‘ng qat’iy jazoga tortilgan. Turli xalqaro aloqalar, josuslik, harbiy-siyosiy fitnalar uyushtirganlikda ayblangan.",
+    image: "/images/celebrities/1.png",
+  },
+  {
+    id: 2,
+    name: "Fayzulla Xo‘jayev",
+    childhood:
+      "Fayzulla Xo‘jayev 1896-yil 1-iyulda Buxoro shahrida yirik savdogar oilasida tug‘ilgan. Yoshligida eski maktabda o‘qigan, keyinchalik Buxoro madrasasida tahsil olgan. 1907–1912 yillarda Moskvada shaxsiy o‘qituvchilardan ta’lim olgan.",
+    info: "1913 yildan boshlab jadidlar safida faoliyat yuritgan. Otasidan qolgan boylikni yangi usul maktablari va 'Yosh buxoroliklar' partiyasi faoliyatini qo‘llab-quvvatlashga sarflagan. 1917 yildan Fitrat bilan birga partiyaning so‘l qanotiga boshchilik qilgan, konstitutsion monarxiya va demokratik respublika uchun kurashgan.",
+    activity:
+      "1920-yilda muhojirlikda Turkistonda 'Yosh buxoroliklar' partiyasi Turkiston byurosini tuzgan. 1925 yilda O‘zbekiston Xalq nozirlari kengashi raisi etib saylangan. Iqtisodiy va madaniy islohotlarga, zamonaviy sanoat inshootlari qurilishiga hissa qo‘shgan. Sovet siyosatining milliy ziyolilarga qarshi choralariga qarshi chiqqan.",
+    death:
+      "1937-yil 9-iyulda Moskvada qamoqqa olingan. Sovetlarga qarshi turli ayblovlar bilan otuvga hukm qilingan va hukm Butovo qatlgohida ijro etilgan. 1965-yil 6-martda SSSR Oliy sudi tomonidan oqlangan.",
+    image: "/images/celebrities/2.png",
+  },
+  {
+    id: 3,
+    name: "Mutal Burhonov",
+    childhood:
+      "Mutal Burhonov 1916-yil 5-mayda Buxoro shahrida madrasa mudarrisi Muzainiddin Burhonov oilasida tug‘ilgan. Bolaligidan musiqaga qiziqqan. Tanbur chalishni amakisi Mukammil Burhonov va Ota G‘iyos Abdug‘anidan o‘rgangan. 1928–1932 yillarda Samarqanddagi O‘zbekiston musiqa va xoreografiya institutida ta’lim olgan.",
+    info: "1932–1935 yillarda Hamza va Lohutiy nomidagi teatrlarida sozanda va musiqa rahbari bo‘lib ishlagan. 1935 yilda Moskva konservatoriyasi qoshidagi 'Uzbek opera studiyasi'da kompozitorlik tahsilini davom ettirgan.",
+    activity:
+      "Musiqa bastalash bilan faol shug‘ullangan. 'Gullagay O‘zbekiston' kantatasi, 'Bahor qushlari', 'Oq oltin' kabi vokal-simfonik asarlar yaratgan. Alisher Navoiyga bag‘ishlangan 'Qasida' (1968) va urush qurbonlariga atalgan 'Epitafiya' (1975) kabi yirik asarlarni bastalagan. O‘zbekiston Respublikasi Davlat madhiyasi musiqasining muallifi.",
+    death: "Mutavakkil Burhonov 2002-yil 15-iyunda Buxoro shahrida vafot etdi.",
+    awards:
+      "O‘zbekiston xalq artisti, 'O‘zbekistonda xizmat ko‘rsatgan san’at arbobi', 'Mehnat shuhrati' medali, 'Buyuk xizmatlari uchun' va 'El-yurt hurmati' ordenlari bilan mukofotlangan.",
+    image: "/images/celebrities/3.png",
+  },
+  {
+    id: 4,
+    nameL: "Abu Ali ibn Sino",
+    childhood:
+      "Abu Ali ibn Sino 980-yil 21-avgustda Buxoro yaqinidagi Afshona qishlog‘ida tug‘ilgan. Otasi obro‘li mansabdor shaxs bo‘lgan. Buxoroga ko‘chib o‘tgach, Husayn ilm olish uchun keng imkoniyatlarga ega bo‘ldi. U erta yoshdan boshlab arab tili, stilistika, savodxonlikni o‘rgandi va 10 yoshida Qur’oni Karimni yod oldi.",
+    info: "Ibn Sino yoshligidan ilmga chanqoq bo‘lgan. U Buxorodagi kutubxonalar va faylasuflar bilan ilmiy muloqotlarda bo‘lgan. Keyinchalik Xorazmda, so‘ngra Hama va Isfahon shaharlarida ilmiy faoliyatini davom ettirgan. Xamada amir saroyida bosh tabib va bosh vazir lavozimlarida ishlagan.",
+    activity:
+      "U 450 dan ortiq asarlar yozgan, ulardan eng mashhuri 'Tib qonunlari' (Al-Qanun fi-t-Tibb) bo‘lib, 5 tomdan iborat. Unda kasalliklar, davolash usullari, dorivor o‘simliklar, jarrohlik va farmakologiya haqida yozilgan. Ibn Sino viruslarni kasallik qo‘zg‘atuvchisi sifatida ta’riflagan, bu faraz keyinchalik Paster tomonidan tasdiqlangan.",
+    death:
+      "Ibn Sino 1037-yilda begona yurtda vafot etgan. U dastlab Hamaron shahrida dafn etilgan, 8 oydan so‘ng jasadi Isfahonga ko‘chirilib, u yerga dafn etilgan.",
+    image: "/images/celebrities/4.png",
+  },
+  {
+    id: 5,
+    name: "Imom Buxoriy",
+    childhood:
+      "Imom Buxoriy 810-yil 20-iyulda Buxoro shahrida tug‘ilgan. Otasi Ismoil ibn Ibrohim hadis ilmi bilan mashhur bo‘lgan, onasi esa solih va duosi ijobat ayol edi. Yoshligida otasidan yetim qolgan, onasining duosi bilan ko‘rish qobiliyati tiklangan. U erta yoshdanoq hadis va ilmga katta qiziqish bildirgan.",
+    info: "Imom Buxoriy kuchli xotiraga ega bo‘lib, 10 yoshida hadislarni yodlay boshlagan. U 16 yoshida onasi va akasi bilan Haj safariga borib, Makkada qolgan. U yerda va boshqa islomiy markazlarda mashhur muhaddislar bilan uchrashib, bilimini oshirgan. 1080 dan ortiq ustozdan saboq olgan.",
+    activity:
+      "U dunyo bo‘ylab 13900 km masofani bosib o‘tgan, hadis yig‘ish va ilm izlash bilan shug‘ullangan. Uning eng mashhur asari — 'Al-Jomi’ as-sahih' (Sahih al-Buxoriy), islom olamida Qur’ondan keyingi eng ishonchli manba deb tan olingan. U jami 600 ming hadis yod olgan, shulardan 100 minggacha sahih hadis deb e’tirof etilgan. Talabalari orasida Imom Muslim, Termiziy va boshqalar bor.",
+    death:
+      "Imom Buxoriy 870-yilda Samarqand yaqinidagi Xartang qishlog‘ida vafot etgan. U 60 yoshda edi. Qabr joyi bugungi kunda Imom Buxoriy majmuasi sifatida ziyoratgohga aylangan.",
+    image:
+      "/images/celebrities/5.png",
+  },
+];

@@ -14,6 +14,7 @@
           'text-white':
             (route.path.includes('/news') ||
               route.path.includes('/libs') ||
+              route.path.includes('/celebrities') ||
               route.path.includes('/facts')) &&
             scrollY < 200,
         }"
@@ -29,6 +30,7 @@
           'text-white':
             (route.path.includes('/news') ||
               route.path.includes('/libs') ||
+              route.path.includes('/celebrities') ||
               route.path.includes('/facts')) &&
             scrollY < 200,
         }"
