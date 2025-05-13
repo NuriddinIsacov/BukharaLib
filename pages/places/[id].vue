@@ -1,6 +1,5 @@
 <template>
   <section id="hero" class="relative w-full h-full">
-
     <div class="container mx-auto px-6 my-32 relative bg-white">
       <NuxtLink
         to="/places"
