@@ -1092,6 +1092,7 @@ export const celebrities = [
 export const places = [
   {
     id: 1,
+    libId: 16,
     name: "Xojagoniya tariqatining yetti ulug‘ piri ziyoratgohlari",
     description:
       "Har yili dunyoning turli nuqtalaridan ko‘plab musulmonlar Xojagoniya tariqatining yetti ulug‘ piri mangu qo‘nim topgan qadamjolarni ziyorat qilish uchun tashrif buyuradi. Bu ziyoratgohlar quyidagilardan iborat: Xoja Abdulxoliq G‘ijduvoniy (G‘ijduvon tumani), Xoja Muhammad Orif Revgariy Mohitobon (Shofirkon tumani), Xoja Mahmud Anjir Fag‘naviy (Vobkent tumani), Xoja Ali Romitaniy (Romitan tumani), Xoja Muhammad Boboyi Samosiy (Romitan tumani), Sayyid Amir Kulol (Kogon tumani), Bahouddin Naqshband (Kogon tumani, Qasri Orifon qishlog‘i). Bahouddin Naqshband ziyoratgohida muzey mavjud bo‘lib, unga kirish pullik, ziyorat qilish esa bepul. Barcha ziyoratgohlar har kuni bomdod namozidan keyin (05:00) ochilib, xufton namozigacha (20:00) ochiq bo‘ladi.",
@@ -1109,6 +1110,7 @@ export const places = [
   },
   {
     id: 2,
+    libId: 16,
     name: "Fayzulla Xo‘jayev uy-muzeyi",
     description:
       "Suronli davrda Buxoro Xalq Sho‘rolar Respublikasini to‘rt yil, O‘zbekiston Sovet Sotsialistik Respublikasini o‘n ikki yil boshqargan yirik siyosatchi Fayzulla Xo‘jayev istiqomat qilgan xonadon hozirda uy-muzey sifatida faoliyat yuritadi. XIX asr me’morchiligining yorqin namunasi bo‘lgan bu hovli dastlab savdogar Ubaydullo Xo‘ja Qosim Xo‘jayevga tegishli bo‘lib, keyinchalik uning o‘g‘li Fayzulla Xo‘jayevga o‘tgan. Muzey 3 gektar maydonni egallab, Buxoro shahrining markazida, Abdulla To‘qay ko‘chasi, 70-uyda joylashgan. U ikki qismdan – erkaklar va ayollar qismlaridan iborat bo‘lib, mehmonxonalar, balkonlar, xo‘jalik xonalari va boshqa inshootlarga ega. Har bir xona yog‘och o‘ymakorligi, antiqa mebellar, qimmatbaho idishlar, uy-ro‘zg‘or buyumlari va noyob bezaklar bilan boyitilgan. Muzeyda 500 dan ortiq eksponat mavjud. Ish vaqti har kuni 09:00 dan 18:00 gacha. Chipta narxi: mahalliy sayyohlarga 5 000 so‘m, xorijliklarga 30 000 so‘m. Fayzulla Xo‘jayev (1896–1938) jadidchilik g‘oyalari tarafdori bo‘lgan, Buxoro Xalq Sovet Respublikasining rahbari sifatida faoliyat yuritgan. 1937-yilda hibsga olinib, 1938-yilda Moskvada otib o‘ldirilgan. 1965-yilda to‘liq reabilitatsiya qilingan.",
@@ -1121,6 +1123,7 @@ export const places = [
   },
   {
     id: 3,
+    libId: 17,
     name: "Ko‘kaldosh madrasasi",
     description:
       "Ko‘kaldosh madrasasi — Buxoro xonining vaziri Qulbobo Ko‘kaldosh tomonidan 1568–1569-yillarda qurilgan me’moriy yodgorlik bo‘lib, Labihovuz ansamblining shimolida joylashgan. Ikki qavatli bu madrasa o‘z zamonida nafaqat Buxoro amirligi, balki butun O‘rta Osiyo, Orenburg, Qozon va Qrimdan kelgan talabalarni ham o‘z bag‘riga olgan. Minoralardagi gumbazlar noyob silliqlangan g‘ishtdan “o‘rgimchak inisimon” tarzda terilgan bo‘lib, bu Buxoro maktabi monumental san’atining eng yaxshi namunasidir. Qulbobo Amir Abdullaxon Shayboniy bilan birga sut emganligi uchun “Ko‘kaldosh” deb atalgan. Bugungi kunda madrasa ichida Buxoro adabiyot tarixi muzeyi faoliyat yuritadi.\n\nShuningdek, Ko‘kaldosh madrasasi Chorsu maydonidagi Shahriston tepaligida, Xo‘ja Ahror Valiy jome’ masjidining yonida joylashgan. Madrasa hovlisi hujralar va ochiq ayvonlar bilan o‘ralgan bo‘lib, 38 ta hujra mavjud. Qurilishda uch qavatli tuzilma bo‘lgan. Masjid va darsxona o‘zaro kesishgan ravoqlar va gumbazlar bilan bog‘langan. XVIII asrda karvonsaroy sifatida ishlatilgan madrasa, 1830–1831-yillarda ayrim qismlari buzilib, boshqa inshoot qurilishiga sarflangan. 1866–1886-yillardagi zilzila peshtoqning yuqori qismini qulatgan. 1902–1903-yillarda Toshkent aholisining xayriya mablag‘lari bilan ta’mir boshlangan, ammo mablag‘ yetishmagani sababli to‘liq tiklanmagan.\n\nChipta narxi: mahalliy aholi uchun 5 000 so‘m, xorijliklar uchun 20 000 so‘m. Ish vaqti: har kuni 08:00 dan 20:00 gacha.",
@@ -1132,6 +1135,7 @@ export const places = [
   },
   {
     id: 4,
+    libId: 17,
     name: "Labihovuz ansambli",
     description:
       "Labihovuz ansambli — XVI–XVII asrlarda bunyod etilgan va Buxoroning markaziy tarixiy maydonlaridan biridir. Ushbu me’moriy majmua Ko‘kaldosh madrasasi, Nodir Devonbegi madrasasi va Nodir Devonbegi xonaqohidan iborat bo‘lib, ularning atrofini Nodir begi hovuzi birlashtiradi. Ansambl o‘lchami taxminan 150×200 metr bo‘lib, o‘z davrida bu hudud gavjum savdo markazi hisoblangan. Bu yerda joylashgan savdo gumbazlari asosiy savdo yo‘liga yaqin bo‘lganligi sababli doimo odamlar bilan to‘lgan. Bugungi kunda Labihovuz — shaharliklar va sayyohlar uchun sevimli maskanga aylangan, ayniqsa kechki paytlarda bu yer doimo gavjum va xizmat ko‘rsatish turlari keng.\n\nAnsambl Buxoro shahristonining janubi-sharqiy qismida, markaziy savdo ko‘chasiga yaqin joylashgan. Yaqinida Toqi Telpakfurushon va Nugay karvonsaroyi joylashgan. Hudud tartibsiz ko‘pburchak shakliga ega: sharqda Devonbegi madrasasi, g‘arbda Devonbegi xonaqohi, markazda Labihovuz hovuzi, shimoli-sharqda salobatli Ko‘kaldosh madrasasi, va hovuz bilan xonaqoh o‘rtasida Xo‘ja Nasriddin haykali mavjud. Labihovuz o‘zining betakror arxitekturasi, madaniy ruhi va tarixiy ahamiyati bilan Buxoro sayyohlik markazining yuragi hisoblanadi.",
@@ -1144,6 +1148,7 @@ export const places = [
   },
   {
     id: 5,
+    libId: 4,
     name: "Sitorai Mohi Xossa",
     description:
       "Sitorai Mohi Xossa xalq amaliy bezak san’ati muzeyi Buxorodagi mang‘itlar sulolasining 3 avlodiga mansub saroy-bog‘ bo‘lib, viloyat markazidan 4 km shimolda joylashgan. Asosiy binolar amir Mir Sayyid Olimxon davrida bunyod etilgan. Majmua 1911−1918-yillarda qurib tugatilgan. Uning maydoni 6 gektar, eski saroy, g‘isht to‘shalgan uch hovli va ko‘pgina xonalardan iborat. Muzeyga kuniga yuzlab turistlar keladi. Ular 700 ga yaqin eksponat bilan tanishish imkoniga ega. Chipta narxi: mahalliy aholiga 10 ming so‘m, talabalar uchun 8 ming so‘m, xorijlik sayyohlarga 40 ming so‘m. Ish vaqti: har kuni 09:00 dan 21:00 gacha.\n\nSaroy Nasrullaxon (1826–60) va Muzaffarxon (1860–85) davrida qurila boshlangan. Abdulahadxon davrida (1885–1910) kengaytirilgan, Olimxon davrida (1910–20) yangi saroy qurilgan. Saroyga kirishda muhtasham darvoza va ayvonlar mavjud. Oqsaroy, haram, favvorali hovli, kutish xonasi, qabullar uchun xonalar, 8 xonali mehmonxona, 2 qavatli masjid va katta hovuz mavjud. Gʻozgʻon marmari, naqshinkor ganch va koshinlar bilan bezatilgan. Ko‘shk va haramlar mahalliy anʼanalarga sodiq holda qurilgan. Hozir bu yerda Buxoro davlat meʼmoriy-badiiy muzeyqo‘riqxonasi, dam olish uyi va bolalar sanatoriysi joylashgan.",
@@ -1155,6 +1160,7 @@ export const places = [
   },
   {
     id: 6,
+    libId: 15,
     name: "Ark qal’asi",
     description:
       "Ark — Buxorodagi qadimiy qalʼa; atrofdagi maydon sathidan deyarli 20 metr balandlikda ko'tarilgan va taxminan 4 gektar maydonni egallagan monumental qal'a. Qal'a Buxoroning eng qadimiy me'moriy va arxeologik yodgorligi hisoblanadi. Bu tepalikni tashkil etgan ko'p asrlik vayronagarchilik qatlamlari bilan shaharning eng qadimiy qismi hisoblanadi.\n\nArk bir vaqtlar buyuklik, kuch va erishib bo'lmaydiganlik ramzi bo‘lgan. Devorlaridan birida Buxoro amirligidagi qudrat timsoli — katta charm qamchi osib qo‘yilgan edi. Bir necha bosqinchilik urushlari davrida vayron bo‘lgan va qayta tiklangan. Hozirgi ko‘rinishi asosan XVI asrda Shayboniylar davrida shakllangan. Qal’a 2500 yillik yubiley arafasida restavratsiya qilingan, Go‘riyon darvozasi qayta tiklangan va boshqa ta’mirlash ishlari amalga oshirilgan.\n\nYUNЕSKO Butunjahon madaniy merosi ro‘yxatiga kiritilgan Ark qal’asi bugungi kunda turistlar orasida juda mashhur bo‘lib, har yili minglab sayyohlarni qabul qiladi. Hozirgi vaqtda qal’a ichida 2 900 dan ortiq eksponat namoyish etilgan. Chipta narxlari: maktab o‘quvchilari uchun 2 000 so‘m, talabalarga 5 000 so‘m, mahalliy sayyohlar uchun 10 000 so‘m, xorijiy turistlar uchun 40 000 so‘m. Ish vaqti: yozda 09:00–21:00, qishda 09:00–18:00. Dam olish kunlarisiz ishlaydi.",

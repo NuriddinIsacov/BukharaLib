@@ -32,13 +32,43 @@
         </p>
         <p><strong>Ish vaqti:</strong> {{ place.hours || "Ma'lumot yo'q " }}</p>
       </div>
+
+      <div class="py-10 ">
+        <div class="flex items-center justify-between pr-20 pb-8">
+          <h1 class="text-xl font-bold">
+            Eng yaqin kutubxona:
+            <NuxtLink
+              class="font-medium hover:underline hover:text-[#e0903b] mr-20"
+              >{{ lib?.name }}</NuxtLink
+            >
+          </h1>
+          <NuxtLink
+            :to="`/libs/${lib.id}`"
+            class="mt-auto inline-block text-[#e0903b] hover:underline font-medium"
+          >
+            Batafsil →
+          </NuxtLink>
+        </div>
+        <div class="map-wrapper">
+          <iframe
+            :src="location"
+            width="100%"
+            height="350"
+            style="border: 0"
+            allowfullscreen
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </div>
     </div>
   </section>
 </template>
 
 <script setup>
-import { places } from "~/constants/data";
+import { libs, places } from "~/constants/data";
 
+const { locale } = useI18n();
 const route = useRoute();
 const router = useRouter();
 
@@ -46,6 +76,10 @@ const place = computed(() => {
   const id = parseInt(route.params.id);
   return places.find((p) => p.id === id);
 });
+
+const lib = libs[locale.value].find((lib) => lib.id == place.value.libId);
+
+const location = lib?.location;
 
 if (!place.value) {
   router.replace("/places");
