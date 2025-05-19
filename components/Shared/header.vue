@@ -102,63 +102,6 @@
           <NuxtImg width="25" src="/images/header/flags/english.svg" />
         </UButton>
       </div>
-
-      <div class="flex gap-2" v-if="false">
-        <SwitchLocalePathLink locale="uz" class="flex gap-2"
-          ><NuxtImg src="/images/header/flags/uzbek.svg"
-        /></SwitchLocalePathLink>
-
-        <SwitchLocalePathLink locale="ru" class="flex gap-2"
-          ><NuxtImg src="/images/header/flags/russian.svg"
-        /></SwitchLocalePathLink>
-
-        <SwitchLocalePathLink locale="en" class="flex gap-2"
-          ><NuxtImg src="/images/header/flags/english.svg"
-        /></SwitchLocalePathLink>
-      </div>
-
-      <div class="mr-2" v-if="false">
-        <UDropdownMenu
-          :items="items"
-          :content="{
-            align: 'end',
-            side: 'bottom',
-            sideOffset: 8,
-          }"
-        >
-          <UButton v-if="locale == 'uz'" color="neutral" variant="outline">
-            <NuxtImg src="/images/header/flags/uzbek.svg" /> O'zbekcha
-          </UButton>
-          <UButton v-if="locale == 'ru'" color="neutral" variant="outline">
-            <NuxtImg src="/images/header/flags/russian.svg" /> Русский
-          </UButton>
-          <UButton v-if="locale == 'en'" color="neutral" variant="outline">
-            <NuxtImg src="/images/header/flags/english.svg" /> English
-          </UButton>
-
-          <template #uz>
-            <SwitchLocalePathLink locale="uz" class="flex gap-2"
-              ><NuxtImg
-                src="/images/header/flags/uzbek.svg"
-              />O'zbekcha</SwitchLocalePathLink
-            >
-          </template>
-          <template #ru>
-            <SwitchLocalePathLink locale="ru" class="flex gap-2"
-              ><NuxtImg
-                src="/images/header/flags/russian.svg"
-              />Русский</SwitchLocalePathLink
-            >
-          </template>
-          <template #en>
-            <SwitchLocalePathLink locale="en" class="flex gap-2"
-              ><NuxtImg
-                src="/images/header/flags/english.svg"
-              />English</SwitchLocalePathLink
-            >
-          </template>
-        </UDropdownMenu>
-      </div>
     </div>
     <!-- <SharedColoreMode /> -->
   </header>
