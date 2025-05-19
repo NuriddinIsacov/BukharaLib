@@ -37,45 +37,127 @@
       >
         <li
           class="transition-all duration-300 hover:-translate-y-1 hover:shadow-[inset_0_-2px_0_0_rgba(0,0,0,0.2)]"
+          :class="{
+            '-translate-y-2 shadow-[inset_0_-2px_0_0_rgba(0,0,0,0.2)]':
+              route.path.includes('/news'),
+          }"
         >
           <NuxtLink to="/news">{{ t("news") }}</NuxtLink>
         </li>
         <li
           class="transition-all duration-300 hover:-translate-y-1 hover:shadow-[inset_0_-2px_0_0_rgba(0,0,0,0.2)]"
+          :class="{
+            '-translate-y-2 shadow-[inset_0_-2px_0_0_rgba(0,0,0,0.2)]':
+              route.path.includes('/libs'),
+          }"
         >
           <NuxtLink to="/libs">{{ t("libs") }}</NuxtLink>
         </li>
         <li
           class="transition-all duration-300 hover:-translate-y-1 hover:shadow-[inset_0_-2px_0_0_rgba(0,0,0,0.2)]"
+          :class="{
+            '-translate-y-2 shadow-[inset_0_-2px_0_0_rgba(0,0,0,0.2)]':
+              route.path.includes('/places'),
+          }"
         >
           <NuxtLink to="/places">{{ t("places") }}</NuxtLink>
         </li>
         <li
           class="transition-all duration-300 hover:-translate-y-1 hover:shadow-[inset_0_-2px_0_0_rgba(0,0,0,0.2)]"
+          :class="{
+            '-translate-y-2 shadow-[inset_0_-2px_0_0_rgba(0,0,0,0.2)]':
+              route.path.includes('/celebrities'),
+          }"
         >
           <NuxtLink to="/celebrities">{{ t("celebrities") }}</NuxtLink>
         </li>
         <li
           class="transition-all duration-300 hover:-translate-y-1 hover:shadow-[inset_0_-2px_0_0_rgba(0,0,0,0.2)]"
+          :class="{
+            '-translate-y-2 shadow-[inset_0_-2px_0_0_rgba(0,0,0,0.2)]':
+              route.path.includes('/facts'),
+          }"
         >
           <NuxtLink to="/facts">{{ t("facts") }}</NuxtLink>
         </li>
         <li
           class="transition-all duration-300 hover:-translate-y-1 hover:shadow-[inset_0_-2px_0_0_rgba(0,0,0,0.2)]"
+          :class="{
+            '-translate-y-2 shadow-[inset_0_-2px_0_0_rgba(0,0,0,0.2)]':
+              route.path.includes('/contact'),
+          }"
         >
           <NuxtLink to="/contact">{{ t("contact") }}</NuxtLink>
         </li>
       </ul>
-      <div class="flex items-center justify-center gap-4">
-        <SwitchLocalePathLink locale="uz"
+
+      <div>
+        <UButton @click="setLocale('uz')" color="neutral" variant="ghost" :class="{'bg-white/50': locale === 'uz'}">
+          <NuxtImg width="25" src="/images/header/flags/uzbek.svg" />
+        </UButton>
+        <UButton @click="setLocale('ru')" color="neutral" variant="ghost" :class="{'bg-white/50': locale === 'ru'}">
+          <NuxtImg width="25" src="/images/header/flags/russian.svg" />
+        </UButton>
+        <UButton @click="setLocale('en')" color="neutral" variant="ghost" :class="{'bg-white/50': locale === 'en'}">
+          <NuxtImg width="25" src="/images/header/flags/english.svg" />
+        </UButton>
+      </div>
+
+      <div class="flex gap-2" v-if="false">
+        <SwitchLocalePathLink locale="uz" class="flex gap-2"
           ><NuxtImg src="/images/header/flags/uzbek.svg"
         /></SwitchLocalePathLink>
-        <SwitchLocalePathLink locale="ru"
+
+        <SwitchLocalePathLink locale="ru" class="flex gap-2"
           ><NuxtImg src="/images/header/flags/russian.svg"
         /></SwitchLocalePathLink>
-        <SwitchLocalePathLink locale="en"
+
+        <SwitchLocalePathLink locale="en" class="flex gap-2"
           ><NuxtImg src="/images/header/flags/english.svg"
         /></SwitchLocalePathLink>
+      </div>
+
+      <div class="mr-2" v-if="false">
+        <UDropdownMenu
+          :items="items"
+          :content="{
+            align: 'end',
+            side: 'bottom',
+            sideOffset: 8,
+          }"
+        >
+          <UButton v-if="locale == 'uz'" color="neutral" variant="outline">
+            <NuxtImg src="/images/header/flags/uzbek.svg" /> O'zbekcha
+          </UButton>
+          <UButton v-if="locale == 'ru'" color="neutral" variant="outline">
+            <NuxtImg src="/images/header/flags/russian.svg" /> Русский
+          </UButton>
+          <UButton v-if="locale == 'en'" color="neutral" variant="outline">
+            <NuxtImg src="/images/header/flags/english.svg" /> English
+          </UButton>
+
+          <template #uz>
+            <SwitchLocalePathLink locale="uz" class="flex gap-2"
+              ><NuxtImg
+                src="/images/header/flags/uzbek.svg"
+              />O'zbekcha</SwitchLocalePathLink
+            >
+          </template>
+          <template #ru>
+            <SwitchLocalePathLink locale="ru" class="flex gap-2"
+              ><NuxtImg
+                src="/images/header/flags/russian.svg"
+              />Русский</SwitchLocalePathLink
+            >
+          </template>
+          <template #en>
+            <SwitchLocalePathLink locale="en" class="flex gap-2"
+              ><NuxtImg
+                src="/images/header/flags/english.svg"
+              />English</SwitchLocalePathLink
+            >
+          </template>
+        </UDropdownMenu>
       </div>
     </div>
     <!-- <SharedColoreMode /> -->
@@ -84,11 +166,13 @@
 
 <script setup lang="ts">
 import { useI18n } from "#imports";
+import type { DropdownMenuItem } from "@nuxt/ui";
 
 const route = useRoute();
+const { t, locale, setLocale } = useI18n();
 
-const { t } = useI18n();
 
+const open = ref(false);
 const scrolled = ref(false);
 
 // qancha scrolldan keyin fon o‘zgarsin:
@@ -111,6 +195,12 @@ onUnmounted(() => {
 function handleScroll() {
   scrollY.value = window.scrollY;
 }
+
+const items: DropdownMenuItem[] = [
+  { label: "O'zbekcha", slot: "uz" },
+  { label: "Русский", slot: "ru" },
+  { label: "English", slot: "en" },
+];
 </script>
 
 <style scoped></style>
