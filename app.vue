@@ -7,7 +7,7 @@
 </template>
 
 <script setup lang="ts">
-document.title = "Bukhara Library";
+document.title = "Travel to Bukhara";
 
 onMounted(() => {
   window.history.scrollRestoration = "manual";

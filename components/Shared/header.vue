@@ -19,7 +19,7 @@
             scrollY < 200,
         }"
       >
-        Bukhara library
+        Travel to Bukhara
       </h4>
     </NuxtLink>
 
