@@ -25,7 +25,7 @@
 
     <div class="flex items-center gap-20">
       <ul
-        class="flex items-center gap-6"
+        class="flex items-center gap-6 max-sm:hidden"
         :class="{
           'text-white':
             (route.path.includes('/news') ||
@@ -91,14 +91,161 @@
         </li>
       </ul>
 
+      <!-- Mobile nav items -->
+
+      <UDrawer class="min-sm:hidden" direction="top">
+        <UButton label="Open" color="neutral" variant="subtle" trailing-icon="i-lucide-chevron-up" />
+        <template #content>
+          <ul
+            class="flex items-center flex-col gap-6 max-sm:hidden"
+           
+          >
+            <li
+              class="transition-all duration-300 hover:-translate-y-1 hover:shadow-[inset_0_-2px_0_0_rgba(0,0,0,0.2)]"
+              :class="{
+                '-translate-y-2 shadow-[inset_0_-2px_0_0_rgba(0,0,0,0.2)]':
+                  route.path.includes('/news'),
+              }"
+            >
+              <NuxtLink to="/news">{{ t("news") }}</NuxtLink>
+            </li>
+            <li
+              class="transition-all duration-300 hover:-translate-y-1 hover:shadow-[inset_0_-2px_0_0_rgba(0,0,0,0.2)]"
+              :class="{
+                '-translate-y-2 shadow-[inset_0_-2px_0_0_rgba(0,0,0,0.2)]':
+                  route.path.includes('/libs'),
+              }"
+            >
+              <NuxtLink to="/libs">{{ t("libs") }}</NuxtLink>
+            </li>
+            <li
+              class="transition-all duration-300 hover:-translate-y-1 hover:shadow-[inset_0_-2px_0_0_rgba(0,0,0,0.2)]"
+              :class="{
+                '-translate-y-2 shadow-[inset_0_-2px_0_0_rgba(0,0,0,0.2)]':
+                  route.path.includes('/places'),
+              }"
+            >
+              <NuxtLink to="/places">{{ t("places") }}</NuxtLink>
+            </li>
+            <li
+              class="transition-all duration-300 hover:-translate-y-1 hover:shadow-[inset_0_-2px_0_0_rgba(0,0,0,0.2)]"
+              :class="{
+                '-translate-y-2 shadow-[inset_0_-2px_0_0_rgba(0,0,0,0.2)]':
+                  route.path.includes('/celebrities'),
+              }"
+            >
+              <NuxtLink to="/celebrities">{{ t("celebrities") }}</NuxtLink>
+            </li>
+            <li
+              class="transition-all duration-300 hover:-translate-y-1 hover:shadow-[inset_0_-2px_0_0_rgba(0,0,0,0.2)]"
+              :class="{
+                '-translate-y-2 shadow-[inset_0_-2px_0_0_rgba(0,0,0,0.2)]':
+                  route.path.includes('/facts'),
+              }"
+            >
+              <NuxtLink to="/facts">{{ t("facts") }}</NuxtLink>
+            </li>
+            <li
+              class="transition-all duration-300 hover:-translate-y-1 hover:shadow-[inset_0_-2px_0_0_rgba(0,0,0,0.2)]"
+              :class="{
+                '-translate-y-2 shadow-[inset_0_-2px_0_0_rgba(0,0,0,0.2)]':
+                  route.path.includes('/contact'),
+              }"
+            >
+              <NuxtLink to="/contact">{{ t("contact") }}</NuxtLink>
+            </li>
+          </ul>
+        </template>
+        <ul
+          class="flex items-center flex-col gap-6 max-sm:hidden"
+          :class="{
+            'text-white':
+              (route.path.includes('/news') ||
+                route.path.includes('/libs') ||
+                route.path.includes('/celebrities') ||
+                route.path.includes('/facts')) &&
+              scrollY < 200,
+          }"
+        >
+          <li
+            class="transition-all duration-300 hover:-translate-y-1 hover:shadow-[inset_0_-2px_0_0_rgba(0,0,0,0.2)]"
+            :class="{
+              '-translate-y-2 shadow-[inset_0_-2px_0_0_rgba(0,0,0,0.2)]':
+                route.path.includes('/news'),
+            }"
+          >
+            <NuxtLink to="/news">{{ t("news") }}</NuxtLink>
+          </li>
+          <li
+            class="transition-all duration-300 hover:-translate-y-1 hover:shadow-[inset_0_-2px_0_0_rgba(0,0,0,0.2)]"
+            :class="{
+              '-translate-y-2 shadow-[inset_0_-2px_0_0_rgba(0,0,0,0.2)]':
+                route.path.includes('/libs'),
+            }"
+          >
+            <NuxtLink to="/libs">{{ t("libs") }}</NuxtLink>
+          </li>
+          <li
+            class="transition-all duration-300 hover:-translate-y-1 hover:shadow-[inset_0_-2px_0_0_rgba(0,0,0,0.2)]"
+            :class="{
+              '-translate-y-2 shadow-[inset_0_-2px_0_0_rgba(0,0,0,0.2)]':
+                route.path.includes('/places'),
+            }"
+          >
+            <NuxtLink to="/places">{{ t("places") }}</NuxtLink>
+          </li>
+          <li
+            class="transition-all duration-300 hover:-translate-y-1 hover:shadow-[inset_0_-2px_0_0_rgba(0,0,0,0.2)]"
+            :class="{
+              '-translate-y-2 shadow-[inset_0_-2px_0_0_rgba(0,0,0,0.2)]':
+                route.path.includes('/celebrities'),
+            }"
+          >
+            <NuxtLink to="/celebrities">{{ t("celebrities") }}</NuxtLink>
+          </li>
+          <li
+            class="transition-all duration-300 hover:-translate-y-1 hover:shadow-[inset_0_-2px_0_0_rgba(0,0,0,0.2)]"
+            :class="{
+              '-translate-y-2 shadow-[inset_0_-2px_0_0_rgba(0,0,0,0.2)]':
+                route.path.includes('/facts'),
+            }"
+          >
+            <NuxtLink to="/facts">{{ t("facts") }}</NuxtLink>
+          </li>
+          <li
+            class="transition-all duration-300 hover:-translate-y-1 hover:shadow-[inset_0_-2px_0_0_rgba(0,0,0,0.2)]"
+            :class="{
+              '-translate-y-2 shadow-[inset_0_-2px_0_0_rgba(0,0,0,0.2)]':
+                route.path.includes('/contact'),
+            }"
+          >
+            <NuxtLink to="/contact">{{ t("contact") }}</NuxtLink>
+          </li>
+        </ul>
+      </UDrawer>
       <div>
-        <UButton @click="setLocale('uz')" color="neutral" variant="ghost" :class="{'bg-white/50': locale === 'uz'}">
+        <UButton
+          @click="setLocale('uz')"
+          color="neutral"
+          variant="ghost"
+          :class="{ 'bg-white/50': locale === 'uz' }"
+        >
           <NuxtImg width="25" src="/images/header/flags/uzbek.svg" />
         </UButton>
-        <UButton @click="setLocale('ru')" color="neutral" variant="ghost" :class="{'bg-white/50': locale === 'ru'}">
+        <UButton
+          @click="setLocale('ru')"
+          color="neutral"
+          variant="ghost"
+          :class="{ 'bg-white/50': locale === 'ru' }"
+        >
           <NuxtImg width="25" src="/images/header/flags/russian.svg" />
         </UButton>
-        <UButton @click="setLocale('en')" color="neutral" variant="ghost" :class="{'bg-white/50': locale === 'en'}">
+        <UButton
+          @click="setLocale('en')"
+          color="neutral"
+          variant="ghost"
+          :class="{ 'bg-white/50': locale === 'en' }"
+        >
           <NuxtImg width="25" src="/images/header/flags/english.svg" />
         </UButton>
       </div>
@@ -113,7 +260,6 @@ import type { DropdownMenuItem } from "@nuxt/ui";
 
 const route = useRoute();
 const { t, locale, setLocale } = useI18n();
-
 
 const open = ref(false);
 const scrolled = ref(false);
@@ -146,4 +292,10 @@ const items: DropdownMenuItem[] = [
 ];
 </script>
 
-<style scoped></style>
+<style scoped>
+@media (max-width: 720px) {
+  .hide-under-720 {
+    @apply hidden;
+  }
+}
+</style>
